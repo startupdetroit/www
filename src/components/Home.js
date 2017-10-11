@@ -1,16 +1,11 @@
 import React, { Component } from 'react';
+import Hero from './Hero';
 
 class Home extends Component {
     render() {
         return (
             <div className="Home">
-                <section className="hero is-info">
-                    <div className="hero-body">
-                        <div className="container">
-                            <h1 className="title">Bringing Detroit Together</h1>
-                        </div>
-                    </div>
-                </section>
+                <Hero />
             </div>
         );
     }

@@ -11,3 +11,12 @@ p {
     font-size: 40px;
     margin: 0 0 20px;
 }
+
+.hero {
+    height: 100%;
+    width: 100%;
+    min-height: 300px;
+    background: url('./static/img/detroit-skyline.jpg') center center no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0, 48, 127, 0.5);
+}
