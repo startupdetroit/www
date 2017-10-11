@@ -12,7 +12,8 @@
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test --env=jsdom",
-        "eject": "react-scripts eject"
+        "eject": "react-scripts eject",
+        "deploy": "yarn run build && gh-pages -d build"
     },
     "devDependencies": {
         "prettier": "^1.7.4"
