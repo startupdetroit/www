@@ -2,8 +2,9 @@
     "name": "startupdetroit",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://startupdetroit.github.io/",
+    "homepage": "https://startupdetroit.github.io/startupdetroit.github.io",
     "dependencies": {
+        "gh-pages": "^1.0.0",
         "react": "^16.0.0",
         "react-dom": "^16.0.0",
         "react-scripts": "1.0.14"
@@ -13,7 +14,8 @@
         "build": "react-scripts build",
         "test": "react-scripts test --env=jsdom",
         "eject": "react-scripts eject",
-        "deploy": "yarn run build && gh-pages -d build"
+        "predeploy": "yarn run build",
+        "deploy": "gh-pages -d build"
     },
     "devDependencies": {
         "prettier": "^1.7.4"
