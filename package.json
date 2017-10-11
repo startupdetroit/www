@@ -2,7 +2,7 @@
     "name": "startupdetroit",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://github.com/startupdetroit/startupdetroit.github.io",
+    "homepage": "https://github.com/startupdetroit/www",
     "dependencies": {
         "gh-pages": "^1.0.0",
         "react": "^16.0.0",
