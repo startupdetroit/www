@@ -1,13 +1,5 @@
 # startupdetroit
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Support](#support)
-- [Contributing](#contributing)
-
-
 ## Local Development
 
 ```
