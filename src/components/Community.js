@@ -4,7 +4,7 @@ import Logo from './Logo';
 class Community extends Component {
   render() {
     return (
-      <section className="section">
+      <section className="section" id="community">
         <h3 className="title">Community</h3>
         <div className="logos">
           <Logo

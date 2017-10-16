@@ -1,153 +1,153 @@
 body {
-    font-family: 'Work Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Work Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 p {
-    letter-spacing: -0.03em;
+  letter-spacing: -0.03em;
 }
 
 .is-centered {
-    text-align: center;
+  text-align: center;
 }
 
 .navbar-brand {
-    font-size: 40px;
-    margin: 0 0 20px;
+  font-size: 40px;
+  margin: 0 0 20px;
 }
 
 .hero {
-    height: 100%;
-    width: 100%;
-    min-height: 400px;
-    background: url('./static/img/detroit-skyline.jpg') center center no-repeat;
-    background-size: cover;
-    /*box-shadow: inset 0 0 0 1000px rgba(0, 48, 127, 0.5);*/
+  height: 100%;
+  width: 100%;
+  min-height: 400px;
+  background: url('./static/img/detroit-skyline.jpg') center center no-repeat;
+  background-size: cover;
+  /*box-shadow: inset 0 0 0 1000px rgba(0, 48, 127, 0.5);*/
 }
 
 .hero h1 {
-    font-size: 72px;
-    padding: 10px 40px;
-    background: rgba(255, 255, 255, 0.6);
-    color: #000;
-    font-weight: 700;
-    line-height: 1.3em;
+  font-size: 72px;
+  padding: 10px 40px;
+  background: rgba(255, 255, 255, 0.6);
+  color: #000;
+  font-weight: 700;
+  line-height: 1.3em;
 }
 
 .hero-body {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .hero-body .container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .Intro {
-    padding: 48px 144px;
-    text-align: center;
+  padding: 48px 144px;
+  text-align: center;
 }
 
 .Intro h2 {
-    font-weight: 100;
-    font-style: italic;
+  font-weight: 100;
+  font-style: italic;
 }
 
 .Logo {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .Logo a {
-    border: 1px solid #ccc;
-    padding: 12px;
+  border: 1px solid #ccc;
+  padding: 12px;
 }
 .Logo .location {
-    align-self: flex-end;
-    font-size: 14px;
-    font-style: italic;
+  align-self: flex-end;
+  font-size: 14px;
+  font-style: italic;
 }
 
 .logos {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 12px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 12px;
 }
 
 .GetInvolved .buttons {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 @media screen and (min-width: 668px) and (max-width: 1024px) {
-    html,
-    body {
-        width: auto;
-        min-width: auto;
-    }
+  html,
+  body {
+    width: auto;
+    min-width: auto;
+  }
 
-    .navbar-end {
-        text-align: right;
-    }
-    .navbar-item {
-        display: inline-block;
-    }
+  .navbar-end {
+    text-align: right;
+  }
+  .navbar-item {
+    display: inline-block;
+  }
 
-    .logos {
-        grid-template-columns: repeat(3, 1fr);
-    }
+  .logos {
+    grid-template-columns: repeat(3, 1fr);
+  }
 
-    .GetInvolved .buttons a {
-        font-size: 1rem;
-    }
+  .GetInvolved .buttons a {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (min-width: 350px) and (max-width: 667px) {
-    html,
-    body {
-        width: auto;
-        min-width: auto;
-    }
+  html,
+  body {
+    width: auto;
+    min-width: auto;
+  }
 
-    .App {
-        display: block;
-    }
+  .App {
+    display: block;
+  }
 
-    .Intro {
-        padding: 0;
-    }
+  .Intro {
+    padding: 0;
+  }
 
-    .Intro h2 {
-        font-size: 1.3rem;
-        padding: 25px 35px;
-    }
+  .Intro h2 {
+    font-size: 1.3rem;
+    padding: 25px 35px;
+  }
 
-    h3.title {
-        font-size: 1.4rem;
-    }
+  h3.title {
+    font-size: 1.4rem;
+  }
 
-    .hero {
-        min-height: 240px;
-    }
+  .hero {
+    min-height: 240px;
+  }
 
-    .hero h1 {
-        font-size: 36px;
-    }
+  .hero h1 {
+    font-size: 36px;
+  }
 
-    .navbar-end {
-        text-align: right;
-    }
+  .navbar-end {
+    text-align: right;
+  }
 
-    .navbar-item {
-        display: inline-block;
-        font-size: 14px;
-    }
+  .navbar-item {
+    display: inline-block;
+    font-size: 14px;
+  }
 
-    .logos {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .logos {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-    .GetInvolved .buttons a {
-        font-size: 1rem;
-    }
+  .GetInvolved .buttons a {
+    font-size: 1rem;
+  }
 }
