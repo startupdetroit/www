@@ -71,18 +71,29 @@ p {
 }
 
 @media screen and (min-width: 668px) and (max-width: 1024px) {
+    html,
+    body {
+        width: auto;
+        min-width: auto;
+    }
+
     .navbar-end {
         text-align: right;
     }
     .navbar-item {
         display: inline-block;
     }
+
+    .logos {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
-@media screen and (min-width: 375px) and (max-width: 667px) {
+@media screen and (min-width: 350px) and (max-width: 667px) {
     html,
     body {
         width: auto;
+        min-width: auto;
     }
 
     .App {
@@ -93,11 +104,33 @@ p {
         padding: 0;
     }
 
+    .Intro h2 {
+        font-size: 1.3rem;
+        padding: 25px 35px;
+    }
+
+    h3.title {
+        font-size: 1.4rem;
+    }
+
     .hero {
         min-height: 240px;
     }
 
     .hero h1 {
         font-size: 36px;
+    }
+
+    .navbar-end {
+        text-align: right;
+    }
+
+    .navbar-item {
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    .logos {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
