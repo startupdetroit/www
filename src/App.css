@@ -6,6 +6,10 @@ p {
     letter-spacing: -0.03em;
 }
 
+.is-centered {
+    text-align: center;
+}
+
 .navbar-brand {
     font-size: 40px;
     margin: 0 0 20px;
@@ -70,6 +74,11 @@ p {
     grid-gap: 12px;
 }
 
+.GetInvolved .buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
 @media screen and (min-width: 668px) and (max-width: 1024px) {
     html,
     body {
@@ -86,6 +95,10 @@ p {
 
     .logos {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .GetInvolved .buttons a {
+        font-size: 1rem;
     }
 }
 
@@ -132,5 +145,9 @@ p {
 
     .logos {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .GetInvolved .buttons a {
+        font-size: 1rem;
     }
 }
