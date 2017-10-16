@@ -10,7 +10,7 @@ class Logo extends Component {
   };
 
   render() {
-    const { href, src, name, location } = this.props;
+    const { href, src, name, location, type } = this.props;
 
     return (
       <div className="Logo">
@@ -19,6 +19,7 @@ class Logo extends Component {
             <img src={src} alt={name} />
           </figure>
         </a>
+        <span className="type">{type}</span>
         <span className="location">{location}</span>
       </div>
     );

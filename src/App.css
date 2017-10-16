@@ -62,7 +62,7 @@ p {
   border: 1px solid #ccc;
   padding: 12px;
 }
-.Logo .location {
+.Logo span {
   align-self: flex-end;
   font-size: 14px;
   font-style: italic;
