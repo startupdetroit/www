@@ -56,7 +56,8 @@ p {
 .logos {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 12px;
+  grid-gap: 24px;
+  grid-row-gap: 36px;
 }
 
 .GetInvolved .buttons {

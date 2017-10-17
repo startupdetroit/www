@@ -3,10 +3,14 @@ import Logo from './Logo';
 
 import logoAmbassador from '../static/img/logos/logo-ambassador.png';
 import logoBamboo from '../static/img/logos/logo-bamboo.png';
+import logoDistilNetworks from '../static/img/logos/logo-distilnetworks.png';
 import logoDVP from '../static/img/logos/logo-dvp.png';
+import logoLunar from '../static/img/logos/logo-lunar.png';
 import logoMapbox from '../static/img/logos/logo-mapbox.png';
 import logoMVCA from '../static/img/logos/logo-mvca.png';
+import logoRepurpose from '../static/img/logos/logo-repurpose.jpg';
 import logoSkyspecs from '../static/img/logos/logo-skyspecs.png';
+import logoSpotHero from '../static/img/logos/logo-spothero.png';
 import logoTechstars from '../static/img/logos/logo-techstars.png';
 import logoTrucks from '../static/img/logos/logo-trucks.png';
 
@@ -31,11 +35,25 @@ class Community extends Component {
             type="Startup"
           />
           <Logo
+            src={logoDistilNetworks}
+            location="Detroit, MI"
+            href="http://distillnetworks.com"
+            name="Distil Networks"
+            type="Startup"
+          />
+          <Logo
             src={logoDVP}
             location="Detroit, MI"
             href="http://detroit.vc"
             name="Detroit Venture Partners"
             type="Investor"
+          />
+          <Logo
+            src={logoLunar}
+            location="Detroit, MI"
+            href="https://lunarwireless.com/"
+            name="Lunar Wireless"
+            type="Startup"
           />
           <Logo
             src={logoMVCA}
@@ -52,10 +70,24 @@ class Community extends Component {
             type="Community Supporter"
           />
           <Logo
+            src={logoRepurpose}
+            location="Detroit, MI"
+            href="http://www.repurpose.co"
+            name="re:purpose"
+            type="Startup"
+          />
+          <Logo
             src={logoSkyspecs}
             location="Detroit, MI"
             href="http://www.skyspecs.com"
             name="Skyspecs"
+            type="Startup"
+          />
+          <Logo
+            src={logoSpotHero}
+            location="Detroit, MI"
+            href="http://www.spothero.com"
+            name="Spot Hero"
             type="Startup"
           />
           <Logo
