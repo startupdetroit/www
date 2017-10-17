@@ -7,12 +7,15 @@ import logoDistilNetworks from '../static/img/logos/logo-distilnetworks.png';
 import logoDVP from '../static/img/logos/logo-dvp.png';
 import logoLunar from '../static/img/logos/logo-lunar.png';
 import logoMapbox from '../static/img/logos/logo-mapbox.png';
+import logoMySwimPro from '../static/img/logos/logo-myswimpro.png';
 import logoMVCA from '../static/img/logos/logo-mvca.png';
 import logoRepurpose from '../static/img/logos/logo-repurpose.jpg';
 import logoSkyspecs from '../static/img/logos/logo-skyspecs.png';
 import logoSpotHero from '../static/img/logos/logo-spothero.png';
 import logoTechstars from '../static/img/logos/logo-techstars.png';
+import logoTechtown from '../static/img/logos/logo-techtown.png';
 import logoTrucks from '../static/img/logos/logo-trucks.png';
+import logoWSU from '../static/img/logos/logo-wsu.png';
 
 class Community extends Component {
   render() {
@@ -70,6 +73,13 @@ class Community extends Component {
             type="Community Supporter"
           />
           <Logo
+            src={logoMySwimPro}
+            location="Detroit, MI"
+            href="http://myswimpro.com"
+            name="MySwimPro"
+            type="Community Supporter"
+          />
+          <Logo
             src={logoRepurpose}
             location="Detroit, MI"
             href="http://www.repurpose.co"
@@ -98,11 +108,25 @@ class Community extends Component {
             type="Investor"
           />
           <Logo
+            src={logoTechtown}
+            location="Detroit, MI"
+            href="http://techtown.com"
+            name="Techtown"
+            type="Community Supporter"
+          />
+          <Logo
             src={logoTrucks}
             location="San Francisco, CA"
             href="http://trucks.vc"
             name="Trucks Venture Capital"
             type="Investor"
+          />
+          <Logo
+            src={logoWSU}
+            location="Detroit, MI"
+            href="http://http://innovationwarriors.wayne.edu/"
+            name="WSU Innovation Warriors"
+            type="Community Supporter"
           />
         </div>
       </section>

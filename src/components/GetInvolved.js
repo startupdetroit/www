@@ -12,7 +12,15 @@ class GetInvolved extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Join our Slack community!
+            Join our Slack community
+          </a>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScoj2AXf9EuPJitkVV1Ju7G8NNWAIbPx-3rMBxCX-Q1LJcYdQ/viewform"
+            className="button is-link is-outlined is-large"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Join our email list
           </a>
           <a
             href="https://www.startupdigest.com/digests/detroit/"

@@ -13,6 +13,7 @@ const Link = styled.a`
   min-height: 175px;
   display: flex;
   align-items: center;
+  justify-content: center;
 `;
 
 const Info = styled.span`
@@ -39,8 +40,10 @@ class Logo extends Component {
             <img src={src} alt={name} />
           </figure>
         </Link>
-        <Info className="type">{type}</Info>
-        <Info className="location">{location}</Info>
+        <Info className="name">{name}</Info>
+        <Info className="type">
+          {type} - {location}
+        </Info>
       </LogoComponent>
     );
   }
