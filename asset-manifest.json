@@ -1,7 +1,13 @@
 {
-  "main.css": "static/css/main.73374dbd.css",
-  "main.css.map": "static/css/main.73374dbd.css.map",
-  "main.js": "static/js/main.0cae39bf.js",
-  "main.js.map": "static/js/main.0cae39bf.js.map",
-  "static/media/detroit-skyline.jpg": "static/media/detroit-skyline.ef3cc586.jpg"
+  "main.css": "static/css/main.9531679a.css",
+  "main.css.map": "static/css/main.9531679a.css.map",
+  "main.js": "static/js/main.65c6d69f.js",
+  "main.js.map": "static/js/main.65c6d69f.js.map",
+  "static/media/detroit-skyline.jpg": "static/media/detroit-skyline.ef3cc586.jpg",
+  "static/media/logo-bamboo.png": "static/media/logo-bamboo.ebe6c74f.png",
+  "static/media/logo-mapbox.png": "static/media/logo-mapbox.b96e838c.png",
+  "static/media/logo-mvca.png": "static/media/logo-mvca.a77937bf.png",
+  "static/media/logo-skyspecs.png": "static/media/logo-skyspecs.90c2db6a.png",
+  "static/media/logo-techstars.png": "static/media/logo-techstars.07c42782.png",
+  "static/media/logo-trucks.png": "static/media/logo-trucks.4de17e0b.png"
 }
