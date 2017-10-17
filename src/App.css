@@ -53,21 +53,6 @@ p {
   font-style: italic;
 }
 
-.Logo {
-  display: flex;
-  flex-direction: column;
-}
-
-.Logo a {
-  border: 1px solid #ccc;
-  padding: 12px;
-}
-.Logo span {
-  align-self: flex-end;
-  font-size: 14px;
-  font-style: italic;
-}
-
 .logos {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
