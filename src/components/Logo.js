@@ -1,5 +1,25 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
+
+const LogoComponent = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
+const Link = styled.a`
+  border: 1px solid #ccc;
+  padding: 12px;
+  min-height: 175px;
+  display: flex;
+  align-items: center;
+`;
+
+const Info = styled.span`
+  align-self: flex-end;
+  font-size: 14px;
+  font-style: italic;
+`;
 
 class Logo extends Component {
   static propTypes = {
@@ -13,15 +33,15 @@ class Logo extends Component {
     const { href, src, name, location, type } = this.props;
 
     return (
-      <div className="Logo">
-        <a href={href} target="_blank">
+      <LogoComponent className="Logo">
+        <Link href={href} target="_blank" rel="noopener noreferrer">
           <figure className="image">
             <img src={src} alt={name} />
           </figure>
-        </a>
-        <span className="type">{type}</span>
-        <span className="location">{location}</span>
-      </div>
+        </Link>
+        <Info className="type">{type}</Info>
+        <Info className="location">{location}</Info>
+      </LogoComponent>
     );
   }
 }
