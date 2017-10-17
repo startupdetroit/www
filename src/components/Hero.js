@@ -7,7 +7,7 @@ class Hero extends Component {
         <section className="hero is-info">
           <div className="hero-body">
             <div className="container">
-              <h1>#startupdetroit</h1>
+              <h1>#StartupDetroit</h1>
             </div>
           </div>
         </section>
