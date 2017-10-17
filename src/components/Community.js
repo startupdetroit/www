@@ -1,6 +1,15 @@
 import React, { Component } from 'react';
 import Logo from './Logo';
 
+import logoAmbassador from '../static/img/logos/logo-ambassador.png';
+import logoBamboo from '../static/img/logos/logo-bamboo.png';
+import logoDVP from '../static/img/logos/logo-dvp.png';
+import logoMapbox from '../static/img/logos/logo-mapbox.png';
+import logoMVCA from '../static/img/logos/logo-mvca.png';
+import logoSkyspecs from '../static/img/logos/logo-skyspecs.png';
+import logoTechstars from '../static/img/logos/logo-techstars.png';
+import logoTrucks from '../static/img/logos/logo-trucks.png';
+
 class Community extends Component {
   render() {
     return (
@@ -8,32 +17,60 @@ class Community extends Component {
         <h3 className="title">Community</h3>
         <div className="logos">
           <Logo
-            src="https://www.techstars.com/uploads/techstars-master-logo-color-600x380.png"
-            location="Detroit, MI"
-            href="http://techstars.com"
-            name="Techstars"
-            type="Investors"
+            src={logoAmbassador}
+            location="Birmingham, MI"
+            href="http://getambassador.com"
+            name="Ambassador"
+            type="Startup"
           />
           <Logo
-            src="https://www.techstars.com/uploads/techstars-master-logo-color-600x380.png"
+            src={logoBamboo}
             location="Detroit, MI"
-            href="http://techstars.com"
-            name="Techstars"
-            type="Supporter"
+            href="http://bamboodetroit.com"
+            name="Bamboo Detroit"
+            type="Startup"
           />
           <Logo
-            src="https://www.techstars.com/uploads/techstars-master-logo-color-600x380.png"
+            src={logoDVP}
             location="Detroit, MI"
-            href="http://techstars.com"
-            name="Techstars"
-            type="Startups"
+            href="http://detroit.vc"
+            name="Detroit Venture Partners"
+            type="Investor"
           />
           <Logo
-            src="https://www.techstars.com/uploads/techstars-master-logo-color-600x380.png"
+            src={logoMVCA}
+            location="Ann Arbor, MI"
+            href="http://michiganvca.org"
+            name="Michigan Venture Capital Association"
+            type="Investor"
+          />
+          <Logo
+            src={logoMapbox}
+            location="Detroit, MI"
+            href="http://mapbox.com"
+            name="Mapbox"
+            type="Community Supporter"
+          />
+          <Logo
+            src={logoSkyspecs}
+            location="Detroit, MI"
+            href="http://www.skyspecs.com"
+            name="Skyspecs"
+            type="Startup"
+          />
+          <Logo
+            src={logoTechstars}
             location="Detroit, MI"
             href="http://techstars.com"
             name="Techstars"
-            type="Supporter"
+            type="Investor"
+          />
+          <Logo
+            src={logoTrucks}
+            location="Detroit, MI"
+            href="http://trucks.vc"
+            name="Trucks Venture Capital"
+            type="Investor"
           />
         </div>
       </section>
