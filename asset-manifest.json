@@ -1,13 +1,17 @@
 {
-  "main.css": "static/css/main.9531679a.css",
-  "main.css.map": "static/css/main.9531679a.css.map",
-  "main.js": "static/js/main.65c6d69f.js",
-  "main.js.map": "static/js/main.65c6d69f.js.map",
+  "main.css": "static/css/main.e833da70.css",
+  "main.css.map": "static/css/main.e833da70.css.map",
+  "main.js": "static/js/main.ae5019a3.js",
+  "main.js.map": "static/js/main.ae5019a3.js.map",
   "static/media/detroit-skyline.jpg": "static/media/detroit-skyline.ef3cc586.jpg",
   "static/media/logo-bamboo.png": "static/media/logo-bamboo.ebe6c74f.png",
+  "static/media/logo-distilnetworks.png": "static/media/logo-distilnetworks.33e3b3eb.png",
+  "static/media/logo-lunar.png": "static/media/logo-lunar.18ffb04a.png",
   "static/media/logo-mapbox.png": "static/media/logo-mapbox.b96e838c.png",
   "static/media/logo-mvca.png": "static/media/logo-mvca.a77937bf.png",
+  "static/media/logo-repurpose.jpg": "static/media/logo-repurpose.e5554f64.jpg",
   "static/media/logo-skyspecs.png": "static/media/logo-skyspecs.90c2db6a.png",
+  "static/media/logo-spothero.png": "static/media/logo-spothero.5490a752.png",
   "static/media/logo-techstars.png": "static/media/logo-techstars.07c42782.png",
   "static/media/logo-trucks.png": "static/media/logo-trucks.4de17e0b.png"
 }
