@@ -22,7 +22,7 @@ class Community extends Component {
         <div className="logos">
           <Logo
             src={logoAmbassador}
-            location="Birmingham, MI"
+            location="Royal Oak, MI"
             href="http://getambassador.com"
             name="Ambassador"
             type="Startup"
@@ -36,10 +36,10 @@ class Community extends Component {
           />
           <Logo
             src={logoDistilNetworks}
-            location="Detroit, MI"
+            location="San Francisco, CA"
             href="http://distillnetworks.com"
             name="Distil Networks"
-            type="Startup"
+            type="Community Supporter"
           />
           <Logo
             src={logoDVP}
@@ -64,7 +64,7 @@ class Community extends Component {
           />
           <Logo
             src={logoMapbox}
-            location="Detroit, MI"
+            location="San Francisco, CA"
             href="http://mapbox.com"
             name="Mapbox"
             type="Community Supporter"
@@ -78,7 +78,7 @@ class Community extends Component {
           />
           <Logo
             src={logoSkyspecs}
-            location="Detroit, MI"
+            location="Ann Arbor, MI"
             href="http://www.skyspecs.com"
             name="Skyspecs"
             type="Startup"
@@ -88,7 +88,7 @@ class Community extends Component {
             location="Detroit, MI"
             href="http://www.spothero.com"
             name="Spot Hero"
-            type="Startup"
+            type="Community Supporter"
           />
           <Logo
             src={logoTechstars}
@@ -99,7 +99,7 @@ class Community extends Component {
           />
           <Logo
             src={logoTrucks}
-            location="Detroit, MI"
+            location="San Francisco, CA"
             href="http://trucks.vc"
             name="Trucks Venture Capital"
             type="Investor"
