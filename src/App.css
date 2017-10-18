@@ -196,7 +196,9 @@ a:hover {
   }
 
   .navbar-end {
-    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .navbar-item {
