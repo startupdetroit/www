@@ -6,7 +6,7 @@ class Hero extends Component {
       <div className="Hero">
         <section className="hero">
           <div className="hero-body">
-            <div className="container">
+            <div className="container has-text-centered">
               <h6>Join our community</h6>
               <h1>#StartupDetroit</h1>
               <h5>Detroit's hub for startups and tech</h5>

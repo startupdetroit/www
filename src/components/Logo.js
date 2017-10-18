@@ -8,18 +8,29 @@ const LogoComponent = styled.div`
 `;
 
 const Link = styled.a`
-  border: 1px solid #ccc;
+  border: 1px solid #999;
   padding: 12px;
   min-height: 175px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 10px;
 `;
 
 const Info = styled.span`
-  align-self: flex-end;
-  font-size: 14px;
-  font-style: italic;
+  align-self: flex-start;
+  font-size: 16px;
+  font-weight: 700;
+`;
+
+const CompanyName = Info.extend`
+  color: #2e3bca;
+  text-transform: uppercase;
+`;
+
+const CompanyType = Info.extend`
+  font-weight: 400;
+  font-size: 13px;
 `;
 
 class Logo extends Component {
@@ -40,10 +51,10 @@ class Logo extends Component {
             <img src={src} alt={name} />
           </figure>
         </Link>
-        <Info className="name">{name}</Info>
-        <Info className="type">
+        <CompanyName>{name}</CompanyName>
+        <CompanyType>
           {type} - {location}
-        </Info>
+        </CompanyType>
       </LogoComponent>
     );
   }

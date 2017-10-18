@@ -1,3 +1,9 @@
+/* Colors
+BRIGHT_PINK: #df2d99
+DARK_PINK: #b83e9f
+BLUE: #2e3bca
+*/
+
 body {
   font-family: 'Work Sans', 'Helvetica Neue', Arial, sans-serif;
 }
@@ -6,13 +12,40 @@ p {
   letter-spacing: -0.03em;
 }
 
-.is-centered {
-  text-align: center;
+a:hover {
+  color: #b83e9f;
 }
 
-.navbar-brand {
-  font-size: 40px;
-  margin: 0 0 20px;
+.button.is-link {
+  background-color: #b83e9f;
+}
+
+.button.is-link:hover {
+  background-color: #2e3bca;
+}
+
+.navbar-menu {
+  box-shadow: none;
+}
+
+.section {
+  padding: 0 0 5rem;
+}
+
+.section hr {
+  width: 80%;
+}
+
+.section h3.title {
+  text-transform: uppercase;
+  color: #2e3bca;
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 3rem;
+}
+
+.Hero {
+  margin-bottom: 5rem;
 }
 
 .hero-body {
@@ -24,7 +57,7 @@ p {
   height: 100%;
   width: 100%;
   min-height: 400px;
-  background-image: url('./static/img/startup-detroit-header.jpg');
+  background-image: url('./static/img/header.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -32,7 +65,7 @@ p {
 .hero h1 {
   width: 461px;
   height: 75px;
-  background-image: url('./static/img/startup-detroit-logo.png');
+  background-image: url('./static/img/hero-logo.png');
   background-size: 100%;
   text-indent: -9999em;
 }
@@ -46,7 +79,6 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
   align-items: center;
   color: #fff;
 }
@@ -61,26 +93,30 @@ p {
   font-weight: 700;
 }
 
-.Intro {
-  padding: 48px 144px;
-  text-align: center;
-}
-
-.Intro h2 {
-  font-weight: 100;
-  font-style: italic;
-}
-
 .logos {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 24px;
-  grid-row-gap: 36px;
+  grid-gap: 1.5rem;
+  grid-row-gap: 3rem;
+  margin-bottom: 5rem;
 }
 
 .GetInvolved .buttons {
   display: flex;
   justify-content: space-around;
+}
+
+.About .content p {
+  margin-bottom: 1.5rem;
+}
+
+.footer {
+  background: #efefef;
+  padding-bottom: 1.5rem;
+}
+
+.footer .content p {
+  margin-bottom: 1.5rem;
 }
 
 @media screen and (min-width: 668px) and (max-width: 1024px) {
@@ -90,9 +126,20 @@ p {
     min-width: auto;
   }
 
+  .container {
+    padding: 0 2rem;
+  }
+
+  .navbar .container {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
   .navbar-end {
     text-align: right;
   }
+
   .navbar-item {
     display: inline-block;
   }
@@ -106,24 +153,23 @@ p {
   }
 }
 
-@media screen and (min-width: 350px) and (max-width: 667px) {
+@media screen and (min-width: 320px) and (max-width: 667px) {
   html,
   body {
     width: auto;
     min-width: auto;
   }
 
+  .container {
+    padding: 0 1rem;
+  }
+
   .App {
     display: block;
   }
 
-  .Intro {
-    padding: 0;
-  }
-
-  .Intro h2 {
-    font-size: 1.3rem;
-    padding: 25px 35px;
+  .section {
+    padding-bottom: 3rem;
   }
 
   h3.title {
@@ -135,7 +181,18 @@ p {
   }
 
   .hero h1 {
-    font-size: 36px;
+    width: 230px;
+    height: 38px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .buttons a {
+    margin-bottom: 24px;
+    width: 80%;
   }
 
   .navbar-end {
@@ -144,14 +201,27 @@ p {
 
   .navbar-item {
     display: inline-block;
-    font-size: 14px;
+    font-size: 13px;
+    padding: 1rem;
   }
 
   .logos {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .logos a {
+    min-height: 120px;
+  }
+
+  .logos span {
+    font-size: 12px;
+  }
+
   .GetInvolved .buttons a {
-    font-size: 1rem;
+    font-size: 14px;
+  }
+
+  .AddYourLogo .content {
+    width: 100%;
   }
 }
