@@ -16,6 +16,7 @@ import logoStockX from '../static/img/logos/logo-stockx.jpg';
 import logoTechstars from '../static/img/logos/logo-techstars.png';
 import logoTechtown from '../static/img/logos/logo-techtown.png';
 import logoTrucks from '../static/img/logos/logo-trucks.png';
+import logoWaymark from '../static/img/logos/logo-waymark.png';
 import logoWSU from '../static/img/logos/logo-wsu.png';
 
 class Community extends Component {
@@ -130,9 +131,16 @@ class Community extends Component {
             type="Investor"
           />
           <Logo
+            src={logoWaymark}
+            location="Detroit, MI"
+            href="http://waymark.com/"
+            name="Waymark"
+            type="Startup"
+          />
+          <Logo
             src={logoWSU}
             location="Detroit, MI"
-            href="http://http://innovationwarriors.wayne.edu/"
+            href="http://innovationwarriors.wayne.edu/"
             name="WSU Innovation Warriors"
             type="Community Supporter"
           />
