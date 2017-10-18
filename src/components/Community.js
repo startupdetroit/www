@@ -10,6 +10,7 @@ import logoDVP from '../static/img/logos/logo-dvp.png';
 import logoRepurpose from '../static/img/logos/logo-repurpose.jpg';
 import logoLunar from '../static/img/logos/logo-lunar.png';
 import logoMapbox from '../static/img/logos/logo-mapbox.png';
+import logoMightyAI from '../static/img/logos/logo-mightyai.svg';
 import logoMVCA from '../static/img/logos/logo-mvca.png';
 import logoMySwimPro from '../static/img/logos/logo-myswimpro.png';
 import logoSkyspecs from '../static/img/logos/logo-skyspecs.png';
@@ -91,6 +92,13 @@ class Community extends Component {
             location="San Francisco, CA"
             href="http://mapbox.com"
             name="Mapbox"
+            type="Community Supporter"
+          />
+          <Logo
+            src={logoMightyAI}
+            location="San Francisco, CA"
+            href="https://mty.ai/"
+            name="Mighty AI"
             type="Community Supporter"
           />
           <Logo
