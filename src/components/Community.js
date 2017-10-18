@@ -11,6 +11,7 @@ import logoTechtown from '../static/img/logos/logo-techtown.png';
 import logoRepurpose from '../static/img/logos/logo-repurpose.jpg';
 import logoWaymark from '../static/img/logos/logo-waymark.png';
 import logoVFA from '../static/img/logos/logo-vfa.png';
+import logoDuo from '../static/img/logos/logo-duo.png';
 import logoMapbox from '../static/img/logos/logo-mapbox.png';
 import logoMySwimPro from '../static/img/logos/logo-myswimpro.png';
 import logoSkyspecs from '../static/img/logos/logo-skyspecs.png';
@@ -97,6 +98,13 @@ class Community extends Component {
             href="https://ventureforamerica.org/"
             name="Venture for America"
             type="Community Supporter"
+          />
+          <Logo
+            src={logoDuo}
+            location="Ann Arbor, MI"
+            href="https://duo.com/"
+            name="Duo Security"
+            type="Startup"
           />
           <Logo
             src={logoMapbox}
