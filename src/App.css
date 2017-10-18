@@ -191,7 +191,7 @@ a:hover {
   }
 
   .Home {
-    padding-top: 170px;
+    padding-top: 170px !important;
   }
 
   .section {
