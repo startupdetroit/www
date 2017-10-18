@@ -10,9 +10,11 @@ import './App.css';
 
 class App extends Component {
   componentDidMount() {
-    ReactGA.initialize('UA-54114923-3');
-    ReactGA.pageview('/');
+    ReactGA.initialize('UA-54114923-3', { debug: true });
+    ReactGA.set({ page: window.location.pathname });
+    ReactGA.pageview(window.location.pathname);
   }
+
   render() {
     return (
       <BrowserRouter>
