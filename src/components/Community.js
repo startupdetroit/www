@@ -12,6 +12,7 @@ import logoMVCA from '../static/img/logos/logo-mvca.png';
 import logoRepurpose from '../static/img/logos/logo-repurpose.jpg';
 import logoSkyspecs from '../static/img/logos/logo-skyspecs.png';
 import logoSpotHero from '../static/img/logos/logo-spothero.png';
+import logoStockX from '../static/img/logos/logo-stockx.jpg';
 import logoTechstars from '../static/img/logos/logo-techstars.png';
 import logoTechtown from '../static/img/logos/logo-techtown.png';
 import logoTrucks from '../static/img/logos/logo-trucks.png';
@@ -99,6 +100,13 @@ class Community extends Component {
             href="http://www.spothero.com"
             name="Spot Hero"
             type="Community Supporter"
+          />
+          <Logo
+            src={logoStockX}
+            location="Detroit, MI"
+            href="http://www.stockx.com"
+            name="StockX"
+            type="Startup"
           />
           <Logo
             src={logoTechstars}
