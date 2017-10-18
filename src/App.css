@@ -15,22 +15,26 @@ p {
   margin: 0 0 20px;
 }
 
+.hero-body {
+  background: linear-gradient(to right, #2e3bca, #df2d99);
+  opacity: 0.9;
+}
+
 .hero {
   height: 100%;
   width: 100%;
   min-height: 400px;
-  background: url('./static/img/detroit-skyline.jpg') center center no-repeat;
+  background-image: url('./static/img/startup-detroit-header.jpg');
+  background-repeat: no-repeat;
   background-size: cover;
-  /*box-shadow: inset 0 0 0 1000px rgba(0, 48, 127, 0.5);*/
 }
 
 .hero h1 {
-  font-size: 72px;
-  padding: 10px 40px;
-  background: rgba(255, 255, 255, 0.6);
-  color: #000;
-  font-weight: 700;
-  line-height: 1.3em;
+  width: 461px;
+  height: 75px;
+  background-image: url('./static/img/startup-detroit-logo.png');
+  background-size: 100%;
+  text-indent: -9999em;
 }
 
 .hero-body {
@@ -40,7 +44,21 @@ p {
 
 .hero-body .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+}
+
+.hero-body h5 {
+  padding-top: 20px;
+}
+
+.hero-body h6 {
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .Intro {
