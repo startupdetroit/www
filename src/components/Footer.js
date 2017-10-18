@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const FooterComponent = styled.footer`
   padding-bottom: 3rem;
-  background: transparent;
+  background: #eee;
 `;
 
 const Heart = styled.span`
