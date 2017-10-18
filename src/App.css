@@ -18,10 +18,24 @@ a:hover {
 
 .button.is-link {
   background-color: #b83e9f;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 1.333rem 1rem;
 }
 
 .button.is-link:hover {
   background-color: #2e3bca;
+}
+
+.navbar {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 100;
+  border-bottom: 1px solid #ccc;
 }
 
 .navbar-menu {
@@ -41,7 +55,7 @@ a:hover {
   color: #2e3bca;
   font-weight: 700;
   font-size: 28px;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 .Hero {
@@ -106,8 +120,17 @@ a:hover {
   justify-content: space-around;
 }
 
+.About .content {
+  padding: 0 16rem;
+}
+
 .About .content p {
   margin-bottom: 1.5rem;
+}
+
+.About .content h4 {
+  line-height: 1.7rem;
+  margin-bottom: 3rem;
 }
 
 .footer {
@@ -124,6 +147,10 @@ a:hover {
   body {
     width: auto;
     min-width: auto;
+  }
+
+  .Home {
+    padding-top: 72px;
   }
 
   .container {
@@ -148,8 +175,8 @@ a:hover {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .GetInvolved .buttons a {
-    font-size: 1rem;
+  .About .content {
+    padding: 0 10rem;
   }
 }
 
@@ -225,5 +252,9 @@ a:hover {
 
   .AddYourLogo .content {
     width: 100%;
+  }
+
+  .About .content {
+    padding: 0 4rem;
   }
 }

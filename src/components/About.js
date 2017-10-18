@@ -11,7 +11,7 @@ class About extends Component {
 
           <h3 className="title has-text-centered">About</h3>
           <div className="content has-text-centered">
-            <p>
+            <h4>
               #StartupDetroit is an{' '}
               <a
                 href="https://github.com/startupdetroit/www"
@@ -21,7 +21,7 @@ class About extends Component {
                 open source approach
               </a>{' '}
               to building the Detroit Startup community.
-            </p>
+            </h4>
             <p>
               Startup Detroit is for the makers, creators, investors, and
               supporters in the software and tech startup space building and
@@ -32,10 +32,10 @@ class About extends Component {
               source is an excellent model to make this work.
             </p>
             <p>
-              <strong>
+              <em>
                 Our goal with #StartupDetroit is to create a brand owned by the
                 community, not owned by anyone or any organization.
-              </strong>
+              </em>
             </p>
             <p>
               To build an inclusive community, we want startups, investors, and

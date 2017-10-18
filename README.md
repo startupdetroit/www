@@ -42,7 +42,7 @@ Or, you can:
 ### Local Development
 
 Getting started:
-- [Download and install Yarn](https://yarnpkg.com/en/docs/install) if you haven't already. 
+- [Download and install Yarn](https://yarnpkg.com/en/docs/install) if you haven't already.
 - Run the following commands to clone the repository, install packages and launch in your browser
 ```
 git clone https://github.com/startupdetroit/www
@@ -62,6 +62,15 @@ Deploy:
 ```
 yarn run deploy
 ```
+
+### Technologies Used
+
+* [React](https://reactjs.org/)
+* [React Router](https://github.com/ReactTraining/react-router)
+* [Create React App](https://github.com/facebookincubator/create-react-app)
+* [Bulma](http://bulma.io)
+* [Styled Components](http://styled-components.com)
+
 
 ### Contributors
 

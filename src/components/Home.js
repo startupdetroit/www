@@ -4,15 +4,21 @@ import GetInvolved from './GetInvolved';
 import Community from './Community';
 import About from './About';
 
+import styled from 'styled-components';
+
+const HomeComponent = styled.div`
+  padding-top: 56px;
+`;
+
 class Home extends Component {
   render() {
     return (
-      <div className="Home">
+      <HomeComponent className="Home">
         <Hero />
         <GetInvolved />
         <Community />
         <About />
-      </div>
+      </HomeComponent>
     );
   }
 }

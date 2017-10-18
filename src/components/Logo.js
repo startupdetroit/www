@@ -8,13 +8,17 @@ const LogoComponent = styled.div`
 `;
 
 const Link = styled.a`
-  border: 1px solid #999;
+  border: 1px solid #ccc;
   padding: 12px;
   min-height: 175px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 10px;
+
+  &:hover {
+    border-color: #df2d99;
+  }
 `;
 
 const Info = styled.span`
@@ -51,7 +55,11 @@ class Logo extends Component {
             <img src={src} alt={name} />
           </figure>
         </Link>
-        <CompanyName>{name}</CompanyName>
+        <CompanyName>
+          <a href={href} target="_blank" rel="noopener noreferrer">
+            {name}
+          </a>
+        </CompanyName>
         <CompanyType>
           {type} - {location}
         </CompanyType>
