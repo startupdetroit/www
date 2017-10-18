@@ -20,8 +20,8 @@ class About extends Component {
             is an excellent model to make this work.
           </p>
           <p>
-            Our goal of #StartupDetroit is to create a brand owned by the
-            community, not owned by anyone one organization.
+            Our goal with #StartupDetroit is to create a brand owned by the
+            community, not owned by anyone or any organization.
           </p>
           <p>
             To build an inclusive community, we want startups, investors, and
