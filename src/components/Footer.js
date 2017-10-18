@@ -21,7 +21,7 @@ class Footer extends Component {
               by <a href="https://tedserbinski.com/">Ted Serbinski</a> and{' '}
               <a href="http://www.shriyash.io/">Shriyash Jalukar</a> and{' '}
               <a href="http://mager.co">Andrew Mager</a> in Detroit, Michigan |{' '}
-              <a href="https://github.com/startupdetroit/">Fork me on Github</a>
+              <a href="https://github.com/startupdetroit/www">Fork me on Github</a>
             </p>
           </div>
         </div>
