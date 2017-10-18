@@ -5,30 +5,6 @@ Welcome to [StartupDetroit](http://www.startupdetroit.co/). This is an open sour
 ### Join Slack Community
 To join the [Slack community](https://startupdetroit.slack.com/) go to [https://startupdetroit.herokuapp.com/](https://startupdetroit.herokuapp.com/) to get an invite. This is managed thanks to a [rauchg/slackin](https://github.com/rauchg/slackin) instance, hosted on [Heroku](https://heroku.com/).
 
-### Local Development
-
-Getting started:
-- [Download and install Yarn](https://yarnpkg.com/en/docs/install) if you haven't already. 
-- Run the following commands to clone the repository, install packages and launch in your browser
-```
-git clone https://github.com/startupdetroit/www
-cd www
-yarn install
-yarn start
-```
-
-Build:
-
-```
-yarn run build
-```
-
-Deploy:
-
-```
-yarn run deploy
-```
-
 ### How to Contribute
 
 Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/startupdetroit/www/pulls).
@@ -62,6 +38,30 @@ Or, you can:
   ```
 4. Submit a pull request
 
+
+### Local Development
+
+Getting started:
+- [Download and install Yarn](https://yarnpkg.com/en/docs/install) if you haven't already. 
+- Run the following commands to clone the repository, install packages and launch in your browser
+```
+git clone https://github.com/startupdetroit/www
+cd www
+yarn install
+yarn start
+```
+
+Build:
+
+```
+yarn run build
+```
+
+Deploy:
+
+```
+yarn run deploy
+```
 
 ### Contributors
 
