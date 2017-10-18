@@ -10,7 +10,7 @@ class About extends Component {
           <Divider />
 
           <h3 className="title has-text-centered">About</h3>
-          <div className="content">
+          <div className="content has-text-centered">
             <p>
               #StartupDetroit is an{' '}
               <a
