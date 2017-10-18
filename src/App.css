@@ -190,6 +190,10 @@ a:hover {
     display: block;
   }
 
+  .Home {
+    padding-top: 170px;
+  }
+
   .section {
     padding-bottom: 3rem;
   }
