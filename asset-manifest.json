@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.e833da70.css",
   "main.css.map": "static/css/main.e833da70.css.map",
-  "main.js": "static/js/main.c4cb6f60.js",
-  "main.js.map": "static/js/main.c4cb6f60.js.map",
+  "main.js": "static/js/main.7ea134ee.js",
+  "main.js.map": "static/js/main.7ea134ee.js.map",
   "static/media/detroit-skyline.jpg": "static/media/detroit-skyline.ef3cc586.jpg",
   "static/media/logo-bamboo.png": "static/media/logo-bamboo.ebe6c74f.png",
   "static/media/logo-castle.png": "static/media/logo-castle.584ff053.png",
@@ -15,6 +15,7 @@
   "static/media/logo-myswimpro.png": "static/media/logo-myswimpro.fce687a1.png",
   "static/media/logo-repurpose.jpg": "static/media/logo-repurpose.e5554f64.jpg",
   "static/media/logo-skyspecs.png": "static/media/logo-skyspecs.90c2db6a.png",
+  "static/media/logo-splt.png": "static/media/logo-splt.c3647f92.png",
   "static/media/logo-spothero.png": "static/media/logo-spothero.5490a752.png",
   "static/media/logo-stockx.jpg": "static/media/logo-stockx.1459a27e.jpg",
   "static/media/logo-techstars.png": "static/media/logo-techstars.07c42782.png",
