@@ -191,7 +191,7 @@ a:hover {
   }
 
   .Home {
-    padding-top: 170px !important;
+    padding-top: 0;
   }
 
   .section {
@@ -233,6 +233,9 @@ a:hover {
     padding: 1rem;
   }
 
+  .navbar {
+    display: none;
+  }
   .logos {
     grid-template-columns: repeat(2, 1fr);
   }
