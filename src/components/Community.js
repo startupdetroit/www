@@ -14,6 +14,7 @@ import logoMightyAI from '../static/img/logos/logo-mightyai.svg';
 import logoMVCA from '../static/img/logos/logo-mvca.png';
 import logoMySwimPro from '../static/img/logos/logo-myswimpro.png';
 import logoSkyspecs from '../static/img/logos/logo-skyspecs.png';
+import logoSPLT from '../static/img/logos/logo-splt.png';
 import logoSpotHero from '../static/img/logos/logo-spothero.png';
 import logoStockX from '../static/img/logos/logo-stockx.jpg';
 import logoTechstars from '../static/img/logos/logo-techstars.png';
@@ -120,6 +121,13 @@ class Community extends Component {
             location="Ann Arbor, MI"
             href="http://www.skyspecs.com"
             name="Skyspecs"
+            type="Startup"
+          />
+          <Logo
+            src={logoSPLT}
+            location="Detroit, MI"
+            href="http://www.splt.io"
+            name="SPLT"
             type="Startup"
           />
           <Logo
