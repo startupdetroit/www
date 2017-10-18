@@ -1,8 +1,10 @@
 {
-  "main.css": "static/css/main.fc379436.css",
-  "main.css.map": "static/css/main.fc379436.css.map",
-  "main.js": "static/js/main.12c937ea.js",
-  "main.js.map": "static/js/main.12c937ea.js.map",
+  "main.css": "static/css/main.4e7613c6.css",
+  "main.css.map": "static/css/main.4e7613c6.css.map",
+  "main.js": "static/js/main.25e815f2.js",
+  "main.js.map": "static/js/main.25e815f2.js.map",
+  "static/media/header.jpg": "static/media/header.d4e8e0f0.jpg",
+  "static/media/hero-logo.png": "static/media/hero-logo.208775f7.png",
   "static/media/logo-bamboo.png": "static/media/logo-bamboo.ebe6c74f.png",
   "static/media/logo-castle.png": "static/media/logo-castle.584ff053.png",
   "static/media/logo-distilnetworks.png": "static/media/logo-distilnetworks.33e3b3eb.png",
@@ -22,7 +24,5 @@
   "static/media/logo-trucks.png": "static/media/logo-trucks.4de17e0b.png",
   "static/media/logo-vfa.png": "static/media/logo-vfa.fe4f3301.png",
   "static/media/logo-waymark.png": "static/media/logo-waymark.5a6d3ca5.png",
-  "static/media/logo-wsu.png": "static/media/logo-wsu.1bbffea4.png",
-  "static/media/startup-detroit-header.jpg": "static/media/startup-detroit-header.d4e8e0f0.jpg",
-  "static/media/startup-detroit-logo.png": "static/media/startup-detroit-logo.208775f7.png"
+  "static/media/logo-wsu.png": "static/media/logo-wsu.1bbffea4.png"
 }
