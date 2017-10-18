@@ -58,7 +58,7 @@ Or, you can:
   type="Startup, Community Supporter, or Investor"
 />
   ```
-4. Create submit a pull request
+4. Submit a pull request
 
 
 ## Contributors
