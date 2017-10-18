@@ -2,6 +2,8 @@
 
 Welcome to [StartupDetroit](http://www.startupdetroit.co/). This is an open source approach to building the Detroit Startup Community. Our goal is to tie together the greater Detroit startup community and be a central hub for startups and tech. Read on to learn how to contribute!
 
+### Join Slack Community
+To join the [Slack community](https://startupdetroit.slack.com/) go to [https://startupdetroit.herokuapp.com/](https://startupdetroit.herokuapp.com/) to get an invite. This is managed thanks to a [rauchg/slackin](https://github.com/rauchg/slackin) instance, hosted on [Heroku](https://heroku.com/).
 
 ### Local Development
 
@@ -27,13 +29,13 @@ Deploy:
 yarn run deploy
 ```
 
-## How to Contribute
+### How to Contribute
 
 Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/startupdetroit/www/pulls).
 
 
 
-## Feature requests, found a bug, or have an idea?
+### Feature requests, found a bug, or have an idea?
 Create an [issue](https://github.com/startupdetroit/www/issues)
 
 ## Want to add your startup or organization's logo?
@@ -61,7 +63,7 @@ Or, you can:
 4. Submit a pull request
 
 
-## Contributors
+### Contributors
 
 * Ted Serbinski
 * Shriyash Jalukar
