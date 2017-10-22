@@ -17,7 +17,11 @@ Create an [issue](https://github.com/startupdetroit/www/issues)
 ## Want to add your startup or organization's logo?
 You can:
 
-Submit an issue titled "Add [Name] Logo". In the description, include a link to the logo.
+Submit an [issue](https://github.com/startupdetroit/www/issues/new) titled "Add [Name] Logo". In the description, include:
+ 1. A link to your logo
+ 2. The city your org is based in (ex: Royal Oak, MI)
+ 3. Website link 
+ 4. The type of supporter you are (Startup, Community Supporter, Investor)
 
 Or, you can:
 1. Add the logo in the [src/static/img/logos folder](https://github.com/startupdetroit/www/tree/master/src/static/img/logos). Follow the naming convention of logo-[name].
