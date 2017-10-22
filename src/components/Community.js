@@ -5,11 +5,14 @@ import Divider from './Divider';
 import AddYourLogo from './AddYourLogo';
 
 import logoAmbassador from '../static/img/logos/logo-ambassador.png';
+import logoAutobooks from '../static/img/logos/logo-autobooks.png';
 import logoBamboo from '../static/img/logos/logo-bamboo.png';
+import logoBenzinga from '../static/img/logos/logo-benzinga.png';
 import logoCastle from '../static/img/logos/logo-castle.png';
 import logoDistilNetworks from '../static/img/logos/logo-distilnetworks.png';
 import logoDuo from '../static/img/logos/logo-duo.png';
 import logoDVP from '../static/img/logos/logo-dvp.png';
+import logoGrandVentures from '../static/img/logos/logo-grandventures.png';
 import logoRepurpose from '../static/img/logos/logo-repurpose.jpg';
 import logoLunar from '../static/img/logos/logo-lunar.png';
 import logoMapbox from '../static/img/logos/logo-mapbox.png';
@@ -44,10 +47,24 @@ class Community extends Component {
               type="Startup"
             />
             <Logo
+              src={logoAutobooks}
+              location="Detroit, MI"
+              href="http://autobooks.co"
+              name="Autobooks"
+              type="Startup"
+            />
+            <Logo
               src={logoBamboo}
               location="Detroit, MI"
               href="http://bamboodetroit.com"
               name="Bamboo Detroit"
+              type="Startup"
+            />
+            <Logo
+              src={logoBenzinga}
+              location="Detroit, MI"
+              href="https://www.benzinga.com/"
+              name="Benzinga"
               type="Startup"
             />
             <Logo
@@ -76,6 +93,13 @@ class Community extends Component {
               location="Detroit, MI"
               href="http://detroit.vc"
               name="Detroit Venture Partners"
+              type="Investor"
+            />
+            <Logo
+              src={logoGrandVentures}
+              location="Grand Rapids, MI"
+              href="http://grandvcp.com/"
+              name="Grand Ventures"
               type="Investor"
             />
             <Logo
