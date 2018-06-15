@@ -20,10 +20,7 @@ class Footer extends Component {
             <p>
               {' '}
               Made with <Heart>♥</Heart> by{' '}
-              <a href="https://tedserbinski.com/">Ted Serbinski</a>,{' '}
-              <a href="http://www.shriyash.io/">Shriyash Jalukar</a>, {' '}
-              <a href="http://mager.co">Andrew Mager</a>, and {' '}
-              <a href="http://klsy.co/">Kelsey Trabue</a> in{' '}
+              <a href="https://github.com/startupdetroit/www#contributors"> Detroiters</a> in{' '}
               <strong>Detroit, MI</strong>.
             </p>
             <p>

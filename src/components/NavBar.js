@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import navbarLogo from '../static/img/navbar-logo.png';
+import navbarLogo from '../static/img/navbar-circle6.png';
 import styled from 'styled-components';
 
 const NavbarLink = styled.a`
   text-transform: uppercase;
-  color: #b83e9f;
+  color: #394494;
   font-weight: 700;
   padding: 1rem 1.5rem;
   &:hover {
-    color: #df2d99 !important;
+    color: #3965AB !important;
   }
 `;
 
@@ -22,8 +22,10 @@ class NavBar extends Component {
               <img
                 src={navbarLogo}
                 alt="#StartupDetroit"
-                width="27"
-                height="36"
+                // width="27"
+                // height="36"
+                width="32"
+                height="42"
               />
             </a>
           </div>

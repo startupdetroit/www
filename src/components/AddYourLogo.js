@@ -16,7 +16,7 @@ const Inner = styled.div`
 `;
 
 const P = styled.p`
-  color: #2e3bca;
+  color: #394494;
   font-weight: 700;
   margin-bottom: 1.5rem !important;
 `;
@@ -33,7 +33,7 @@ class AddYourLogo extends Component {
             rel="noopener noreferrer"
             target="_blank"
           >
-            Contact Us
+            Contribute on GitHub
           </a>
         </Inner>
       </AddYourLogoComponent>

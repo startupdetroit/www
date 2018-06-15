@@ -7,15 +7,12 @@ import AddYourLogo from './AddYourLogo';
 import logoAmbassador from '../static/img/logos/logo-ambassador.png';
 import logoAutobooks from '../static/img/logos/logo-autobooks.png';
 import logoBamboo from '../static/img/logos/logo-bamboo.png';
-import logoBarokas from '../static/img/logos/logo-barokas.png';
 import logoBenzinga from '../static/img/logos/logo-benzinga.png';
 import logoCastle from '../static/img/logos/logo-castle.png';
-import logoDetroitLabs from '../static/img/logos/logo-detroitlabs.png';
 import logoDistilNetworks from '../static/img/logos/logo-distilnetworks.png';
 import logoDuo from '../static/img/logos/logo-duo.png';
 import logoDVP from '../static/img/logos/logo-dvp.png';
 import logoGrandVentures from '../static/img/logos/logo-grandventures.png';
-import logoKyybaVentures from '../static/img/logos/logo-kyybaventures.png';
 import logoRepurpose from '../static/img/logos/logo-repurpose.jpg';
 import logoLunar from '../static/img/logos/logo-lunar.png';
 import logoMapbox from '../static/img/logos/logo-mapbox.png';
@@ -28,21 +25,37 @@ import logoSpotHero from '../static/img/logos/logo-spothero.png';
 import logoStockX from '../static/img/logos/logo-stockx.jpg';
 import logoTechstars from '../static/img/logos/logo-techstars.png';
 import logoTechtown from '../static/img/logos/logo-techtown.png';
-import logoTiEDetroit from '../static/img/logos/logo-tiedetroit.png';
 import logoTome from '../static/img/logos/logo-tome.jpg';
 import logoTrucks from '../static/img/logos/logo-trucks.png';
 import logoVFA from '../static/img/logos/logo-vfa.png';
 import logoWaymark from '../static/img/logos/logo-waymark.png';
 import logoWSU from '../static/img/logos/logo-wsu.png';
 
+
+
 class Community extends Component {
   render() {
     return (
+
       <section className="section" id="community">
+        <script type="text/javascript" src="json.json"></script>
+
         <div className="container">
           <Divider />
           <h3 className="title has-text-centered">Community</h3>
           <div className="logos">
+
+          {/* <script>
+
+
+            for(var i = 0; i < json.length; i++) {
+              var obj = json[i];
+              console.log(obj.id);
+            }
+
+
+          </script> */}
+
             <Logo
               src={logoAmbassador}
               location="Royal Oak, MI"
@@ -65,13 +78,6 @@ class Community extends Component {
               type="Startup"
             />
             <Logo
-              src={logoBarokas}
-              location="Detroit, MI"
-              href="http://www.barokas.com"
-              name="Barokas PR"
-              type="Community Supporter"
-            />
-            <Logo
               src={logoBenzinga}
               location="Detroit, MI"
               href="https://www.benzinga.com/"
@@ -83,13 +89,6 @@ class Community extends Component {
               location="Detroit, MI"
               href="https://entercastle.com/"
               name="Castle"
-              type="Startup"
-            />
-            <Logo
-              src={logoDetroitLabs}
-              location="Detroit, MI"
-              href="https://detroitlabs.com"
-              name="Detroit Labs"
               type="Startup"
             />
             <Logo
@@ -118,13 +117,6 @@ class Community extends Component {
               location="Grand Rapids, MI"
               href="http://grandvcp.com/"
               name="Grand Ventures"
-              type="Investor"
-            />
-            <Logo
-              src={logoKyybaVentures}
-              location="Farmington Hills, MI"
-              href="http://www.kyybaventures.com/"
-              name="Kyyba Ventures"
               type="Investor"
             />
             <Logo
@@ -209,13 +201,6 @@ class Community extends Component {
               location="Detroit, MI"
               href="http://techtown.com"
               name="Techtown"
-              type="Community Supporter"
-            />
-            <Logo
-              src={logoTiEDetroit}
-              location="Detroit, MI"
-              href="http://detroit.tie.org"
-              name="TiE Detroit"
               type="Community Supporter"
             />
             <Logo

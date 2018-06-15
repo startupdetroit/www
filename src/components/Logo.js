@@ -17,7 +17,7 @@ const Link = styled.a`
   margin-bottom: 10px;
 
   &:hover {
-    border-color: #df2d99;
+    border-color: #EFADC9;
   }
 `;
 

@@ -1,0 +1,25 @@
+var json = [{
+    "name" : "Ambassador",
+    "location"   : "Royal Oak, MI",
+    "href" : "http://getambassador.com",
+    "type": "Startup"
+},
+{
+    "name" : "Autobooks",
+    "location"   : "Detroit, MI",
+    "href" : "http://autobooks.co",
+    "type": "Startup"
+},
+{
+    "name" : "Bamboo Detroit",
+    "location"   : "Detroit, MI",
+    "href" : "http://bamboodetroit.com",
+    "type": "Startup"
+},
+{
+    "name" : "Benzinga",
+    "location"   : "Detroit, MI",
+    "href" : "http://www.benzinga.com",
+    "type": "Startup"
+},
+];

@@ -13,11 +13,11 @@ p {
 }
 
 a:hover {
-  color: #b83e9f;
+  color: #EFADC9;
 }
 
 .button.is-link {
-  background-color: #b83e9f;
+  background-color: #394494;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 700;
@@ -25,7 +25,7 @@ a:hover {
 }
 
 .button.is-link:hover {
-  background-color: #2e3bca;
+  background-color: #4552B2;
 }
 
 .navbar {
@@ -52,7 +52,7 @@ a:hover {
 
 .section h3.title {
   text-transform: uppercase;
-  color: #2e3bca;
+  color: #000000;
   font-weight: 700;
   font-size: 28px;
   margin-bottom: 4rem;
@@ -63,15 +63,15 @@ a:hover {
 }
 
 .hero-body {
-  background: linear-gradient(to right, #2e3bca, #df2d99);
-  opacity: 0.9;
+  background: #394494;
+  opacity: 0.78;
 }
 
 .hero {
   height: 100%;
   width: 100%;
-  min-height: 400px;
-  background-image: url('./static/img/header.jpg');
+  min-height: 580px;
+  background-image: url('./static/img/skyline.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -79,7 +79,7 @@ a:hover {
 .hero h1 {
   width: 461px;
   height: 75px;
-  background-image: url('./static/img/hero-logo.png');
+  background-image: url('./static/img/sd-logo.png');
   background-size: 100%;
   text-indent: -9999em;
 }
