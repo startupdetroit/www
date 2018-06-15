@@ -78,6 +78,7 @@ yarn run deploy
 
 ### Contributors
 
-* Ted Serbinski
-* Shriyash Jalukar
-* Andrew Mager
+* [Ted Serbinski](www.tedserbinski.com)
+* [Shriyash Jalukar](www.shriyash.io)
+* [Andrew Mager](http://jessicakrcmarik.com/)
+* [Kelsey Trabue](http://klsy.co/)
