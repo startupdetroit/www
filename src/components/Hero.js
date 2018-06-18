@@ -7,9 +7,9 @@ class Hero extends Component {
         <section className="hero">
           <div className="hero-body">
             <div className="container has-text-centered">
-              <h6>Join our community</h6>
               <h1>#StartupDetroit</h1>
-              <h5>Detroit's startup community starts here</h5>
+              <h3>We are building the future of Detroit, one startup at a time.</h3>
+              <h3>This is where Detroit's startup community comes together.</h3>
             </div>
           </div>
         </section>
