@@ -34,11 +34,11 @@ class NavBar extends Component {
               <NavbarLink className="navbar-item" href="#get-involved">
                 Get Involved
               </NavbarLink>
-              <NavbarLink className="navbar-item" href="#community">
-                Community
-              </NavbarLink>
               <NavbarLink className="navbar-item" href="#about">
                 About
+              </NavbarLink>
+              <NavbarLink className="navbar-item" href="#community">
+                Community
               </NavbarLink>
             </div>
           </div>

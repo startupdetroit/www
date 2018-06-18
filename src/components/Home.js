@@ -16,8 +16,8 @@ class Home extends Component {
       <HomeComponent className="Home">
         <Hero />
         <GetInvolved />
-        <Community />
         <About />
+        <Community />
       </HomeComponent>
     );
   }
