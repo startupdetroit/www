@@ -8,17 +8,23 @@ import logoAmbassador from '../static/img/logos/logo-ambassador.png';
 import logoAutobooks from '../static/img/logos/logo-autobooks.png';
 import logoBamboo from '../static/img/logos/logo-bamboo.png';
 import logoBenzinga from '../static/img/logos/logo-benzinga.png';
+import logoBloomscape from '../static/img/logos/logo-bloomscape.png';
 import logoCastle from '../static/img/logos/logo-castle.png';
 import logoDistilNetworks from '../static/img/logos/logo-distilnetworks.png';
 import logoDuo from '../static/img/logos/logo-duo.png';
 import logoDVP from '../static/img/logos/logo-dvp.png';
+import logoGrandCircus from '../static/img/logos/logo-grandcircus.png';
 import logoGrandVentures from '../static/img/logos/logo-grandventures.png';
-import logoRepurpose from '../static/img/logos/logo-repurpose.jpg';
 import logoLunar from '../static/img/logos/logo-lunar.png';
 import logoMapbox from '../static/img/logos/logo-mapbox.png';
 import logoMightyAI from '../static/img/logos/logo-mightyai.svg';
 import logoMVCA from '../static/img/logos/logo-mvca.png';
 import logoMySwimPro from '../static/img/logos/logo-myswimpro.png';
+import logoOptimize from '../static/img/logos/logo-optimize.png';
+import logoPlanetM from '../static/img/logos/logo-planetm.jpg';
+import logoRepurpose from '../static/img/logos/logo-repurpose.jpg';
+import logoSift from '../static/img/logos/logo-sift.png';
+import logoSkillo from '../static/img/logos/logo-skillo.png';
 import logoSkyspecs from '../static/img/logos/logo-skyspecs.png';
 import logoSPLT from '../static/img/logos/logo-splt.png';
 import logoSpotHero from '../static/img/logos/logo-spothero.png';
@@ -29,6 +35,7 @@ import logoTome from '../static/img/logos/logo-tome.jpg';
 import logoTrucks from '../static/img/logos/logo-trucks.png';
 import logoVFA from '../static/img/logos/logo-vfa.png';
 import logoWaymark from '../static/img/logos/logo-waymark.png';
+import logoWeWork from '../static/img/logos/logo-wework.jpg';
 import logoWSU from '../static/img/logos/logo-wsu.png';
 
 
@@ -85,6 +92,13 @@ class Community extends Component {
               type="Startup"
             />
             <Logo
+              src={logoBloomscape}
+              location="Detroit, MI"
+              href="https://www.bloomscape.com/"
+              name="Benzinga"
+              type="Startup"
+            />
+            <Logo
               src={logoCastle}
               location="Detroit, MI"
               href="https://entercastle.com/"
@@ -113,18 +127,18 @@ class Community extends Component {
               type="Investor"
             />
             <Logo
+              src={logoGrandCircus}
+              location="Detroit, MI"
+              href="https://www.grandcircus.co/"
+              name="Grand Circus"
+              type="Community Supporter"
+            />
+            <Logo
               src={logoGrandVentures}
               location="Grand Rapids, MI"
               href="http://grandvcp.com/"
               name="Grand Ventures"
               type="Investor"
-            />
-            <Logo
-              src={logoRepurpose}
-              location="Detroit, MI"
-              href="http://www.repurpose.co"
-              name="re:purpose"
-              type="Startup"
             />
             <Logo
               src={logoLunar}
@@ -159,6 +173,41 @@ class Community extends Component {
               location="Detroit, MI"
               href="http://myswimpro.com"
               name="MySwimPro"
+              type="Startup"
+            />
+            <Logo
+              src={logoOptimize}
+              location="Detroit, MI"
+              href="https://www.optimizemi.org/"
+              name="Optimize"
+              type="Community Supporter"
+            />
+            <Logo
+              src={logoPlanetM}
+              location="Detroit, MI"
+              href="https://planetm.michiganbusiness.org/"
+              name="PlanetM"
+              type="Community Supporter"
+            />
+            <Logo
+              src={logoRepurpose}
+              location="Detroit, MI"
+              href="http://www.repurpose.co"
+              name="re:purpose"
+              type="Startup"
+            />
+            <Logo
+              src={logoSift}
+              location="Detroit, MI"
+              href="http://www.justsift.com"
+              name="Sift"
+              type="Startup"
+            />
+            <Logo
+              src={logoSkillo}
+              location="Detroit, MI"
+              href="http://tryskillo.com/"
+              name="Skillo"
               type="Startup"
             />
             <Logo
@@ -229,6 +278,13 @@ class Community extends Component {
               location="Detroit, MI"
               href="http://waymark.com/"
               name="Waymark"
+              type="Startup"
+            />
+            <Logo
+              src={logoWeWork}
+              location="Detroit, MI"
+              href="http://wework.com/"
+              name="Wework"
               type="Startup"
             />
             <Logo

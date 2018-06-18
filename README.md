@@ -20,7 +20,7 @@ You can:
 Submit an [issue](https://github.com/startupdetroit/www/issues/new) titled "Add [Name] Logo". In the description, include:
  1. A link to your logo
  2. The city your org is based in (ex: Royal Oak, MI)
- 3. Website link 
+ 3. Website link
  4. The type of supporter you are (Startup, Community Supporter, Investor)
 
 Or, you can:
@@ -78,7 +78,8 @@ yarn run deploy
 
 ### Contributors
 
-* [Ted Serbinski](http://www.tedserbinski.com)
-* [Shriyash Jalukar](http://www.shriyash.io)
-* [Andrew Mager](http://jessicakrcmarik.com/)
+* [Ted Serbinski](www.tedserbinski.com)
+* [Shriyash Jalukar](www.shriyash.io)
+* [Andrew Mager](http://mager.co/)
+* [Jessica Krcmarik](http://jessicakrcmarik.com/)
 * [Kelsey Trabue](http://klsy.co/)
