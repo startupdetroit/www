@@ -13,6 +13,7 @@ import logoCastle from '../static/img/logos/logo-castle.png';
 import logoDistilNetworks from '../static/img/logos/logo-distilnetworks.png';
 import logoDuo from '../static/img/logos/logo-duo.png';
 import logoDVP from '../static/img/logos/logo-dvp.png';
+import logoGenomenon from '../static/img/logos/logo-genomenon.png';
 import logoGrandCircus from '../static/img/logos/logo-grandcircus.png';
 import logoGrandVentures from '../static/img/logos/logo-grandventures.png';
 import logoLunar from '../static/img/logos/logo-lunar.png';
@@ -125,6 +126,13 @@ class Community extends Component {
               href="http://detroit.vc"
               name="Detroit Venture Partners"
               type="Investor"
+            />
+            <Logo
+              src={logoGenomenon}
+              location="Ann Arbor, MI"
+              href="https://www.genomenon.com/"
+              name="Genomenon"
+              type="Startup"
             />
             <Logo
               src={logoGrandCircus}
