@@ -5,6 +5,7 @@ import Divider from './Divider';
 import AddYourLogo from './AddYourLogo';
 
 import logoAmbassador from '../static/img/logos/logo-ambassador.png';
+import logoAssemblerLabs from '../static/img/logos/logo-assembler-labs.png';
 import logoAutobooks from '../static/img/logos/logo-autobooks.png';
 import logoBamboo from '../static/img/logos/logo-bamboo.png';
 import logoBenzinga from '../static/img/logos/logo-benzinga.png';
@@ -69,6 +70,13 @@ class Community extends Component {
               location="Royal Oak, MI"
               href="http://getambassador.com"
               name="Ambassador"
+              type="Startup"
+            />
+            <Logo
+              src={logoAssemblerLabs}
+              location="Detroit, MI"
+              href="https://www.assemblerlabs.com"
+              name="Assembler Labs"
               type="Startup"
             />
             <Logo
