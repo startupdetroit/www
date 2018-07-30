@@ -104,7 +104,7 @@ class Community extends Component {
               src={logoBloomscape}
               location="Detroit, MI"
               href="https://www.bloomscape.com/"
-              name="Benzinga"
+              name="Bloomscape"
               type="Startup"
             />
             <Logo
