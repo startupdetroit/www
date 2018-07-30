@@ -4,6 +4,7 @@
     "private": true,
     "homepage": "http://startupdetroit.github.io",
     "dependencies": {
+        "bulma": "^0.7.1",
         "chai": "^4.1.2",
         "gh-pages": "^1.0.0",
         "react": "^16.0.0",

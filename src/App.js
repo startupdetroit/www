@@ -3,6 +3,8 @@ import ReactGA from 'react-ga';
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
+import 'bulma/css/bulma.min.css';
+
 import Home from './components/Home';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
