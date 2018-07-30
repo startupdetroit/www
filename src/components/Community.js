@@ -19,12 +19,14 @@ import logoGrandCircus from '../static/img/logos/logo-grandcircus.png';
 import logoGrandVentures from '../static/img/logos/logo-grandventures.png';
 import logoLunar from '../static/img/logos/logo-lunar.png';
 import logoMapbox from '../static/img/logos/logo-mapbox.png';
+import logoMercuryFund from '../static/img/logos/logo-mercuryfund.png';
 import logoMightyAI from '../static/img/logos/logo-mightyai.svg';
 import logoMVCA from '../static/img/logos/logo-mvca.png';
 import logoMySwimPro from '../static/img/logos/logo-myswimpro.png';
 import logoOptimize from '../static/img/logos/logo-optimize.png';
 import logoPlanetM from '../static/img/logos/logo-planetm.jpg';
 import logoRepurpose from '../static/img/logos/logo-repurpose.jpg';
+import logoRIZZARR from '../static/img/logos/logo-rizzarr.png';
 import logoSift from '../static/img/logos/logo-sift.png';
 import logoSkillo from '../static/img/logos/logo-skillo.png';
 import logoSkyspecs from '../static/img/logos/logo-skyspecs.png';
@@ -171,6 +173,13 @@ class Community extends Component {
               type="Community Supporter"
             />
             <Logo
+              src={logoMercuryFund}
+              location="Ann Arbor, MI"
+              href="http://mercuryfund.com/"
+              name="Mercury Fund"
+              type="Investor"
+            />
+            <Logo
               src={logoMightyAI}
               location="San Francisco, CA"
               href="https://mty.ai/"
@@ -210,6 +219,13 @@ class Community extends Component {
               location="Detroit, MI"
               href="http://www.repurpose.co"
               name="re:purpose"
+              type="Startup"
+            />
+            <Logo
+              src={logoRIZZARR}
+              location="Detroit, MI"
+              href="http://www.rizzarr.com/"
+              name="RIZZARR"
               type="Startup"
             />
             <Logo

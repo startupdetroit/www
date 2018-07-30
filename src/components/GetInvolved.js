@@ -23,6 +23,7 @@ class GetInvolved extends Component {
             >
               Join our email list
             </a>
+
             <a
               href="https://www.startupdigest.com/digests/detroit/"
               className="button is-link"
