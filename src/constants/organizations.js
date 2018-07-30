@@ -13,12 +13,14 @@ import logoGrandCircus from '../static/img/logos/logo-grandcircus.png';
 import logoGrandVentures from '../static/img/logos/logo-grandventures.png';
 import logoLunar from '../static/img/logos/logo-lunar.png';
 import logoMapbox from '../static/img/logos/logo-mapbox.png';
+import logoMercuryFund from '../static/img/logos/logo-mercuryfund.png';
 import logoMightyAI from '../static/img/logos/logo-mightyai.svg';
 import logoMVCA from '../static/img/logos/logo-mvca.png';
 import logoMySwimPro from '../static/img/logos/logo-myswimpro.png';
 import logoOptimize from '../static/img/logos/logo-optimize.png';
 import logoPlanetM from '../static/img/logos/logo-planetm.jpg';
 import logoRepurpose from '../static/img/logos/logo-repurpose.jpg';
+import logoRIZZARR from '../static/img/logos/logo-rizzarr.png';
 import logoSift from '../static/img/logos/logo-sift.png';
 import logoSkillo from '../static/img/logos/logo-skillo.png';
 import logoSkyspecs from '../static/img/logos/logo-skyspecs.png';
@@ -142,6 +144,13 @@ export const ORGANIZATIONS = [{
     type: ORG_TYPES.COMMUNITY_SUPPORTER,
   },
   {
+    logo: logoMercuryFund,
+    location: "Ann Arbor, MI",
+    website: "http://mercuryfund.com",
+    name: "Mercury Fund",
+    type: ORG_TYPES.INVESTOR,
+  },
+  {
     logo: logoMightyAI,
     location: "San Francisco, CA",
     website: "https://mty.ai/",
@@ -181,6 +190,13 @@ export const ORGANIZATIONS = [{
     location: "Detroit, MI",
     website: "http://www.repurpose.co",
     name: "re:purpose",
+    type: ORG_TYPES.STARTUP,
+  },
+  {
+    logo: logoRIZZARR,
+    location: "Detroit, MI",
+    website: "http://www.rizzarr.com",
+    name: "RIZZARR",
     type: ORG_TYPES.STARTUP,
   },
   {
