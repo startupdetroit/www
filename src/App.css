@@ -28,6 +28,14 @@ a:hover {
   background-color: #4552B2;
 }
 
+.filter-buttons .button.is-primary {
+  background-color: #394494;
+}
+
+.filter-buttons .button.is-primary:hover {
+  background-color: #4552B2;
+}
+
 .navbar {
   position: fixed !important;
   top: 0;
@@ -214,6 +222,10 @@ a:hover {
   .buttons {
     flex-direction: column;
     align-items: center;
+  }
+
+  .buttons.filter-buttons {
+    flex-direction: row;
   }
 
   .buttons a {
