@@ -83,3 +83,4 @@ yarn run deploy
 * [Andrew Mager](http://mager.co/)
 * [Jessica Krcmarik](http://jessicakrcmarik.com/)
 * [Kelsey Trabue](http://klsy.co/)
+* [Eric Krawczyk](https://eric.kraw.cz/)
