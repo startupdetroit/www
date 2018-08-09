@@ -6,6 +6,21 @@ class GetInvolved extends Component {
       <section className="GetInvolved section" id="get-involved">
         <div className="container">
           <h3 className="title has-text-centered">Get Involved</h3>
+
+          <div className="buttons-toprow">
+
+            <a
+              href="https://www.meetup.com/Startup-Detroit/"
+              className="button is-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Join the meetup
+            </a>
+
+
+          </div>
+
           <div className="buttons">
             <a
               href="https://startupdetroit.herokuapp.com/"
@@ -15,6 +30,7 @@ class GetInvolved extends Component {
             >
               Join our Slack community
             </a>
+
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLScoj2AXf9EuPJitkVV1Ju7G8NNWAIbPx-3rMBxCX-Q1LJcYdQ/viewform"
               className="button is-link"
@@ -32,6 +48,7 @@ class GetInvolved extends Component {
             >
               Startup Digest Calendar
             </a>
+
           </div>
         </div>
       </section>
