@@ -18,6 +18,15 @@ class GetInvolved extends Component {
               Join the meetup
             </a>
 
+            <a
+              href="https://startupdetroit.repurpose.co/"
+              className="button is-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Join the happy hour
+            </a>
+
 
           </div>
 
