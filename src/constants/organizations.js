@@ -1,16 +1,18 @@
 import logoAmbassador from '../static/img/logos/logo-ambassador.png';
 import logoAssemblerLabs from '../static/img/logos/logo-assembler-labs.png';
 import logoAutobooks from '../static/img/logos/logo-autobooks.png';
+import logoBackstage from '../static/img/logos/logo-backstagecapital.png';
 import logoBamboo from '../static/img/logos/logo-bamboo.png';
 import logoBenzinga from '../static/img/logos/logo-benzinga.png';
 import logoBloomscape from '../static/img/logos/logo-bloomscape.png';
-import logoCastle from '../static/img/logos/logo-castle.png';
 import logoDistilNetworks from '../static/img/logos/logo-distilnetworks.png';
 import logoDuo from '../static/img/logos/logo-duo.png';
 import logoDVP from '../static/img/logos/logo-dvp.png';
 import logoGenomenon from '../static/img/logos/logo-genomenon.png';
 import logoGrandCircus from '../static/img/logos/logo-grandcircus.png';
 import logoGrandVentures from '../static/img/logos/logo-grandventures.png';
+import logoHackerFellows from '../static/img/logos/logo-hackerfellows.png';
+import logoInvestDetroitVentures from '../static/img/logos/logo-idventures.png';
 import logoLunar from '../static/img/logos/logo-lunar.png';
 import logoMapbox from '../static/img/logos/logo-mapbox.png';
 import logoMercuryFund from '../static/img/logos/logo-mercuryfund.png';
@@ -60,6 +62,13 @@ export const ORGANIZATIONS = [{
     type: ORG_TYPES.STARTUP,
   },
   {
+    logo: logoBackstage,
+    location: "Detroit, MI",
+    website: "https://backstagecapital.com/accelerator/cities/detroit/",
+    name: "Backstage Capital",
+    type: ORG_TYPES.INVESTOR,
+  },
+  {
     logo: logoBamboo,
     location: "Detroit, MI",
     website: "http://bamboodetroit.com",
@@ -78,13 +87,6 @@ export const ORGANIZATIONS = [{
     location: "Detroit, MI",
     website: "https://www.bloomscape.com/",
     name: "Bloomscape",
-    type: ORG_TYPES.STARTUP,
-  },
-  {
-    logo: logoCastle,
-    location: "Detroit, MI",
-    website: "https://entercastle.com/",
-    name: "Castle",
     type: ORG_TYPES.STARTUP,
   },
   {
@@ -127,6 +129,20 @@ export const ORGANIZATIONS = [{
     location: "Grand Rapids, MI",
     website: "http://grandvcp.com/",
     name: "Grand Ventures",
+    type: ORG_TYPES.INVESTOR,
+  },
+  {
+    logo: logoHackerFellows,
+    location: "Detroit, MI",
+    website: "https://www.hackerfellows.com/",
+    name: "Hacker Fellows",
+    type: ORG_TYPES.COMMUNITY_SUPPORTER,
+  },
+  {
+    logo: logoInvestDetroitVentures,
+    location: "Detroit, MI",
+    website: "https://www.investdetroit.vc/",
+    name: "Invest Detroit Ventures",
     type: ORG_TYPES.INVESTOR,
   },
   {
