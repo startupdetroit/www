@@ -8,6 +8,7 @@ import logoBloomscape from '../static/img/logos/logo-bloomscape.png';
 import logoDistilNetworks from '../static/img/logos/logo-distilnetworks.png';
 import logoDuo from '../static/img/logos/logo-duo.png';
 import logoDVP from '../static/img/logos/logo-dvp.png';
+import logoEOSDetroit from '../static/img/logos/logo-eos-detroit.png';
 import logoGenomenon from '../static/img/logos/logo-genomenon.png';
 import logoGrandCircus from '../static/img/logos/logo-grandcircus.png';
 import logoGrandVentures from '../static/img/logos/logo-grandventures.png';
@@ -37,7 +38,6 @@ import logoVFA from '../static/img/logos/logo-vfa.png';
 import logoWaymark from '../static/img/logos/logo-waymark.png';
 import logoWeWork from '../static/img/logos/logo-wework.jpg';
 import logoWSU from '../static/img/logos/logo-wsu.png';
-import logoEOSDetroit from '../static/img/logos/logo-eos-detroit.png';
 
 import {ORG_TYPES} from './organization-types.js';
 
