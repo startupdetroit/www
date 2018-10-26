@@ -37,6 +37,7 @@ import logoVFA from '../static/img/logos/logo-vfa.png';
 import logoWaymark from '../static/img/logos/logo-waymark.png';
 import logoWeWork from '../static/img/logos/logo-wework.jpg';
 import logoWSU from '../static/img/logos/logo-wsu.png';
+import logoEOSDetroit from '../static/img/logos/logo-eos-detroit.png';
 
 import {ORG_TYPES} from './organization-types.js';
 
@@ -109,6 +110,13 @@ export const ORGANIZATIONS = [{
     website: "http://detroit.vc",
     name: "Detroit Venture Partners",
     type: ORG_TYPES.INVESTOR,
+  },
+  {
+    logo: logoEOSDetroit,
+    location: "Detroit, MI",
+    website: "https://eosdetroit.io",
+    name: "EOS Detroit",
+    type: ORG_TYPES.STARTUP
   },
   {
     logo: logoGenomenon,
