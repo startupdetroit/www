@@ -3,17 +3,21 @@ import logoAssemblerLabs from '../static/img/logos/logo-assembler-labs.png';
 import logoAutobooks from '../static/img/logos/logo-autobooks.png';
 import logoBackstage from '../static/img/logos/logo-backstagecapital.png';
 import logoBamboo from '../static/img/logos/logo-bamboo.png';
+import logoBarokasPR from '../static/img/logos/logo-barokas.png';
 import logoBenzinga from '../static/img/logos/logo-benzinga.png';
 import logoBloomscape from '../static/img/logos/logo-bloomscape.png';
+import logoDetroitLabs from '../static/img/logos/logo-detroitlabs.png';
 import logoDistilNetworks from '../static/img/logos/logo-distilnetworks.png';
 import logoDuo from '../static/img/logos/logo-duo.png';
 import logoDVP from '../static/img/logos/logo-dvp.png';
+import logoEntryPoint from '../static/img/logos/logo-entrypoint.png';
 import logoEOSDetroit from '../static/img/logos/logo-eos-detroit.png';
 import logoGenomenon from '../static/img/logos/logo-genomenon.png';
 import logoGrandCircus from '../static/img/logos/logo-grandcircus.png';
 import logoGrandVentures from '../static/img/logos/logo-grandventures.png';
 import logoHackerFellows from '../static/img/logos/logo-hackerfellows.png';
 import logoInvestDetroitVentures from '../static/img/logos/logo-idventures.png';
+import logoKyyba from '../static/img/logos/logo-kyybaventures.png';
 import logoLunar from '../static/img/logos/logo-lunar.png';
 import logoMapbox from '../static/img/logos/logo-mapbox.png';
 import logoMercuryFund from '../static/img/logos/logo-mercuryfund.png';
@@ -29,11 +33,14 @@ import logoSkillo from '../static/img/logos/logo-skillo.png';
 import logoSkyspecs from '../static/img/logos/logo-skyspecs.png';
 import logoSPLT from '../static/img/logos/logo-splt.png';
 import logoSpotHero from '../static/img/logos/logo-spothero.png';
+import logoStartupBoost from '../static/img/logos/logo-startupboost.png';
 import logoStockX from '../static/img/logos/logo-stockx.jpg';
 import logoTechstars from '../static/img/logos/logo-techstars.png';
 import logoTechtown from '../static/img/logos/logo-techtown.png';
+import logoTiEDetroit from '../static/img/logos/logo-tiedetroit.png';
 import logoTome from '../static/img/logos/logo-tome.jpg';
 import logoTrucks from '../static/img/logos/logo-trucks.png';
+import logoVentureCatalysts from '../static/img/logos/logo-venturecatalysts.png';
 import logoVFA from '../static/img/logos/logo-vfa.png';
 import logoWaymark from '../static/img/logos/logo-waymark.png';
 import logoWeWork from '../static/img/logos/logo-wework.jpg';
@@ -77,6 +84,13 @@ export const ORGANIZATIONS = [{
     type: ORG_TYPES.STARTUP,
   },
   {
+    logo: logoBarokasPR,
+    location: "Detroit, MI",
+    website: "http://barokas.com/",
+    name: "Barokas PR",
+    type: ORG_TYPES.COMMUNITY_SUPPORTER,
+  },
+  {
     logo: logoBenzinga,
     location: "Detroit, MI",
     website: "https://www.benzinga.com/",
@@ -88,6 +102,13 @@ export const ORGANIZATIONS = [{
     location: "Detroit, MI",
     website: "https://www.bloomscape.com/",
     name: "Bloomscape",
+    type: ORG_TYPES.STARTUP,
+  },
+  {
+    logo: logoDetroitLabs,
+    location: "Detroit, MI",
+    website: "https://www.detroitlabs.com/",
+    name: "Detroit Labs",
     type: ORG_TYPES.STARTUP,
   },
   {
@@ -110,6 +131,13 @@ export const ORGANIZATIONS = [{
     website: "http://detroit.vc",
     name: "Detroit Venture Partners",
     type: ORG_TYPES.INVESTOR,
+  },
+  {
+    logo: logoEntryPoint,
+    location: "Ann Arbor, MI",
+    website: "https://entrypointmi.com/",
+    name: "EntryPoint",
+    type: ORG_TYPES.COMMUNITY_SUPPORTER,
   },
   {
     logo: logoEOSDetroit,
@@ -151,6 +179,13 @@ export const ORGANIZATIONS = [{
     location: "Detroit, MI",
     website: "https://www.investdetroit.vc/",
     name: "Invest Detroit Ventures",
+    type: ORG_TYPES.INVESTOR,
+  },
+  {
+    logo: logoKyyba,
+    location: "Farmington Hills, MI",
+    website: "http://kyybaventures.com/",
+    name: "Kyyba Ventures",
     type: ORG_TYPES.INVESTOR,
   },
   {
@@ -259,6 +294,13 @@ export const ORGANIZATIONS = [{
     type: ORG_TYPES.COMMUNITY_SUPPORTER,
   },
   {
+    logo: logoStartupBoost,
+    location: "Detroit, MI",
+    website: "http://startupboost.org/",
+    name: "Startup Boost",
+    type: ORG_TYPES.COMMUNITY_SUPPORTER,
+  },
+  {
     logo: logoStockX,
     location: "Detroit, MI",
     website: "http://www.stockx.com",
@@ -280,6 +322,13 @@ export const ORGANIZATIONS = [{
     type: ORG_TYPES.COMMUNITY_SUPPORTER,
   },
   {
+    logo: logoTiEDetroit,
+    location: "Detroit, MI",
+    website: "https://detroit.tie.org/",
+    name: "TiE Detroit",
+    type: ORG_TYPES.COMMUNITY_SUPPORTER,
+  },
+  {
     logo: logoTome,
     location: "Royal Oak, MI",
     website: "http://tomesoftware.com/",
@@ -291,6 +340,13 @@ export const ORGANIZATIONS = [{
     location: "San Francisco, CA",
     website: "http://trucks.vc",
     name: "Trucks Venture Capital",
+    type: ORG_TYPES.INVESTOR,
+  },
+  {
+    logo: logoVentureCatalysts,
+    location: "Detroit, MI",
+    website: "https://www.venturecatalysts.co/",
+    name: "Venture Catalysts",
     type: ORG_TYPES.INVESTOR,
   },
   {
