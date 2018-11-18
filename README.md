@@ -84,3 +84,4 @@ yarn run deploy
 * [Jessica Krcmarik](http://jessicakrcmarik.com/)
 * [Kelsey Trabue](http://klsy.co/)
 * [Eric Krawczyk](https://eric.kraw.cz/)
+* [Emily Johnson](https://ejj.myportfolio.com/)
