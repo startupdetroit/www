@@ -24,10 +24,10 @@ class App extends Component {
           <NavBar />
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path='/invite' component={() => window.location = 'http://startupdetroit.herokuapp.com/'}/>
-            <Route path='/slack' component={() => window.location = 'https://startupdetroit.slack.com/'}/>
-            <Route path='/meetup' component={() => window.location = 'https://www.meetup.com/Startup-Detroit/'}/>
-            <Route path='/happyhour' component={() => window.location = 'https://startupdetroit.repurpose.co/'}/>
+            <Route exact path='/invite' component={() => window.location = 'http://startupdetroit.herokuapp.com/'}/>
+            <Route exact path='/slack' component={() => window.location = 'https://startupdetroit.slack.com/'}/>
+            <Route exact path='/meetup' component={() => window.location = 'https://www.meetup.com/Startup-Detroit/'}/>
+            <Route exact path='/happyhour' component={() => window.location = 'https://startupdetroit.repurpose.co/'}/>
           </Switch>
           <Footer />
         </div>
