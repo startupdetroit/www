@@ -45,6 +45,7 @@ import logoVFA from '../static/img/logos/logo-vfa.png';
 import logoWaymark from '../static/img/logos/logo-waymark.png';
 import logoWeWork from '../static/img/logos/logo-wework.jpg';
 import logoWSU from '../static/img/logos/logo-wsu.png';
+import logoXRDS from '../static/img/logos/logo-xrds.png';
 
 import {ORG_TYPES} from './organization-types.js';
 
@@ -376,5 +377,12 @@ export const ORGANIZATIONS = [{
     website: "http://innovationwarriors.wayne.edu/",
     name: "WSU Innovation Warriors",
     type: ORG_TYPES.COMMUNITY_SUPPORTER,
+  },
+  {
+    logo: logoXRDS,
+    location: "Detroit, MI",
+    website: "https://xrdesignstudios.com/",
+    name: "XR Design Studios",
+    type: ORG_TYPES.STARTUP,
   },
 ]
