@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.0e24d0b3.css",
   "main.css.map": "static/css/main.0e24d0b3.css.map",
-  "main.js": "static/js/main.9bdcd408.js",
-  "main.js.map": "static/js/main.9bdcd408.js.map",
+  "main.js": "static/js/main.6e26222c.js",
+  "main.js.map": "static/js/main.6e26222c.js.map",
   "static/media/logo-assembler-labs.png": "static/media/logo-assembler-labs.fbba7412.png",
   "static/media/logo-backstagecapital.png": "static/media/logo-backstagecapital.e4b08c4b.png",
   "static/media/logo-bamboo.png": "static/media/logo-bamboo.ebe6c74f.png",
@@ -42,5 +42,6 @@
   "static/media/logo-waymark.png": "static/media/logo-waymark.5a6d3ca5.png",
   "static/media/logo-wework.jpg": "static/media/logo-wework.9a2d0626.jpg",
   "static/media/logo-wsu.png": "static/media/logo-wsu.1bbffea4.png",
+  "static/media/logo-xrds.png": "static/media/logo-xrds.e14d5bd9.png",
   "static/media/skyline.jpg": "static/media/skyline.71df05f8.jpg"
 }
