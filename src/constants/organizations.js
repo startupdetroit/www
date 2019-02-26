@@ -28,6 +28,7 @@ import logoOptimize from '../static/img/logos/logo-optimize.png';
 import logoPlanetM from '../static/img/logos/logo-planetm.jpg';
 import logoRepurpose from '../static/img/logos/logo-repurpose.jpg';
 import logoRIZZARR from '../static/img/logos/logo-rizzarr.png';
+import logoSaganworks from '../static/img/logos/logo-saganworks.png';
 import logoSift from '../static/img/logos/logo-sift.png';
 import logoSkillo from '../static/img/logos/logo-skillo.png';
 import logoSkyspecs from '../static/img/logos/logo-skyspecs.png';
@@ -35,7 +36,7 @@ import logoSPLT from '../static/img/logos/logo-splt.png';
 import logoSpotHero from '../static/img/logos/logo-spothero.png';
 import logoStartupBoost from '../static/img/logos/logo-startupboost.png';
 import logoStockX from '../static/img/logos/logo-stockx.jpg';
-import logoTechstars from '../static/img/logos/logo-techstars.png';
+import logoTechstars from '../static/img/logos/logo-techstars2.png';
 import logoTechtown from '../static/img/logos/logo-techtown.png';
 import logoTiEDetroit from '../static/img/logos/logo-tiedetroit.png';
 import logoTome from '../static/img/logos/logo-tome.jpg';
@@ -257,6 +258,13 @@ export const ORGANIZATIONS = [{
     location: "Detroit, MI",
     website: "http://www.rizzarr.com",
     name: "RIZZARR",
+    type: ORG_TYPES.STARTUP,
+  },
+  {
+    logo: logoSaganworks,
+    location: "Ann Arbor, MI",
+    website: "http://www.saganworks.com",
+    name: "SAGANWORKS",
     type: ORG_TYPES.STARTUP,
   },
   {
