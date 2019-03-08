@@ -25,20 +25,19 @@ Submit an [issue](https://github.com/startupdetroit/www/issues/new) titled "Add 
 
 Or, you can:
 1. Add the logo in the [src/static/img/logos folder](https://github.com/startupdetroit/www/tree/master/src/static/img/logos). Follow the naming convention of logo-[name].
-2. Import the logo in the [src/components/Community.js](https://github.com/startupdetroit/www/blob/master/src/components/Community.js) file by adding this line at the top
+2. Import the logo in alphabetical order in the [src/constants/organizations.js](https://github.com/startupdetroit/www/blob/master/src/constants/organizations.js) file by adding this line at the top
   ```
   import logoName from '../static/img/logos/logo-name.png';
   ```
-3. Add the logo in alphabetical order in the [same file](https://github.com/startupdetroit/www/blob/master/src/components/Community.js), as shown below.
-
+3. Add the logo in alphabetical order in the [same file](https://github.com/startupdetroit/www/blob/master/src/constants/organizations.js), as shown below.
   ```
-  <Logo
-  src={logoName}
-  location="Detroit, MI"
-  href="http://www.example.com"
-  name="Logo"
-  type="Startup, Community Supporter, or Investor"
-/>
+  {
+    logo: logoName,
+    location: "Royal Oak, MI",
+    website: "http://www.example.com",
+    name: "Logo",
+    type: ORG_TYPES.STARTUP || ORG_TYPES.INVESTOR || ORG_TYPES.COMMUNITY_SUPPORTER,
+  }
   ```
 4. Submit a pull request
 
