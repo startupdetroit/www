@@ -326,7 +326,7 @@ export const ORGANIZATIONS = [{
   {
     logo: logoTechtown,
     location: "Detroit, MI",
-    website: "http://techtown.com",
+    website: "https://techtowndetroit.org/",
     name: "Techtown",
     type: ORG_TYPES.COMMUNITY_SUPPORTER,
   },
