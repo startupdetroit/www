@@ -36,6 +36,7 @@ import logoSPLT from '../static/img/logos/logo-splt.png';
 import logoSpotHero from '../static/img/logos/logo-spothero.png';
 import logoStartupBoost from '../static/img/logos/logo-startupboost.png';
 import logoStockX from '../static/img/logos/logo-stockx.jpg';
+import logoTechElevator from '../static/img/logos/logo-techelevator.png';
 import logoTechstars from '../static/img/logos/logo-techstars2.png';
 import logoTechtown from '../static/img/logos/logo-techtown.png';
 import logoTiEDetroit from '../static/img/logos/logo-tiedetroit.png';
@@ -315,6 +316,13 @@ export const ORGANIZATIONS = [{
     website: "http://www.stockx.com",
     name: "StockX",
     type: ORG_TYPES.STARTUP,
+  },
+  {
+    logo: logoTechElevator,
+    location: "Detroit, MI",
+    website: "https://www.techelevator.com/",
+    name: "Tech Elevator",
+    type: ORG_TYPES.COMMUNITY_SUPPORTER,
   },
   {
     logo: logoTechstars,
