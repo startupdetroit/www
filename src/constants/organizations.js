@@ -24,6 +24,7 @@ import logoMercuryFund from '../static/img/logos/logo-mercuryfund.png';
 import logoMightyAI from '../static/img/logos/logo-mightyai.svg';
 import logoMVCA from '../static/img/logos/logo-mvca.png';
 import logoMySwimPro from '../static/img/logos/logo-myswimpro.png';
+import logoNextEnergy from '../static/img/logos/logo-nextenergy.png';
 import logoOptimize from '../static/img/logos/logo-optimize.png';
 import logoPlanetM from '../static/img/logos/logo-planetm.jpg';
 import logoRepurpose from '../static/img/logos/logo-repurpose.jpg';
@@ -40,6 +41,7 @@ import logoTechElevator from '../static/img/logos/logo-techelevator.png';
 import logoTechstars from '../static/img/logos/logo-techstars2.png';
 import logoTechtown from '../static/img/logos/logo-techtown.png';
 import logoTiEDetroit from '../static/img/logos/logo-tiedetroit.png';
+import logoToDoolie from '../static/img/logos/logo-todoolie.png';
 import logoTome from '../static/img/logos/logo-tome.jpg';
 import logoTrucks from '../static/img/logos/logo-trucks.png';
 import logoVentureCatalysts from '../static/img/logos/logo-venturecatalysts.png';
@@ -234,6 +236,13 @@ export const ORGANIZATIONS = [{
     type: ORG_TYPES.STARTUP,
   },
   {
+    logo: logoNextEnergy,
+    location: "Detroit, MI",
+    website: "https://nextenergy.org/",
+    name: "NextEnergy",
+    type: ORG_TYPES.COMMUNITY_SUPPORTER,
+  },
+  {
     logo: logoOptimize,
     location: "Detroit, MI",
     website: "https://www.optimizemi.org/",
@@ -344,6 +353,13 @@ export const ORGANIZATIONS = [{
     website: "https://detroit.tie.org/",
     name: "TiE Detroit",
     type: ORG_TYPES.COMMUNITY_SUPPORTER,
+  },
+  {
+    logo: logoToDoolie,
+    location: "Detroit, MI",
+    website: "https://todoolie.com/",
+    name: "ToDoolie",
+    type: ORG_TYPES.STARTUP,
   },
   {
     logo: logoTome,
