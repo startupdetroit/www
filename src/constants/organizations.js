@@ -1,3 +1,4 @@
+import logoAlfaJango from '../static/img/logos/logo-alfajango.svg';
 import logoAmbassador from '../static/img/logos/logo-ambassador.png';
 import logoAssemblerLabs from '../static/img/logos/logo-assembler-labs.png';
 import logoAutobooks from '../static/img/logos/logo-autobooks.png';
@@ -54,6 +55,13 @@ import logoXRDS from '../static/img/logos/logo-xrds.png';
 import {ORG_TYPES} from './organization-types.js';
 
 export const ORGANIZATIONS = [{
+    logo: logoAlfaJango,
+    location: "Ann Arbor, MI",
+    website: "https://www.alfajango.com",
+    name: "Alfa Jango",
+    type: ORG_TYPES.COMMUNITY_SUPPORTER,
+  },
+  {
     logo: logoAmbassador,
     location: "Royal Oak, MI",
     website: "http://getambassador.com",
