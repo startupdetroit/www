@@ -59,7 +59,7 @@ export const ORGANIZATIONS = [
   {
     logo: logoAltimetrikCollider,
     location: "Detroit,MI",
-    website: "http://getambassador.com",
+    website: "https://collider.altimetrik.com/",
     name: "Altimetrik Collider",
     type: ORG_TYPES.COMMUNITY_SUPPORTER,
   },
