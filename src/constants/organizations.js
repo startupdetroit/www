@@ -1,11 +1,12 @@
+import logoAltimetrikCollider from '../static/img/logos/logo-altimetrikcollider.png';
 import logoAmbassador from '../static/img/logos/logo-ambassador.png';
 import logoAssemblerLabs from '../static/img/logos/logo-assembler-labs.png';
-import logoAutobooks from '../static/img/logos/logo-autobooks.png';
+import logoAutobooks from '../static/img/logos/logo-autobooks.svg';
 import logoBackstage from '../static/img/logos/logo-backstagecapital.png';
 import logoBamboo from '../static/img/logos/logo-bamboo.png';
-import logoBarokasPR from '../static/img/logos/logo-barokas.png';
 import logoBenzinga from '../static/img/logos/logo-benzinga.png';
 import logoBloomscape from '../static/img/logos/logo-bloomscape.png';
+import logoDeepHow from '../static/img/logos/logo-deephow.png';
 import logoDetroitLabs from '../static/img/logos/logo-detroitlabs.png';
 import logoDistilNetworks from '../static/img/logos/logo-distilnetworks.png';
 import logoDuo from '../static/img/logos/logo-duo.png';
@@ -16,9 +17,9 @@ import logoGenomenon from '../static/img/logos/logo-genomenon.png';
 import logoGrandCircus from '../static/img/logos/logo-grandcircus.png';
 import logoGrandVentures from '../static/img/logos/logo-grandventures.png';
 import logoHackerFellows from '../static/img/logos/logo-hackerfellows.png';
+import logoHealthyRootsDolls from '../static/img/logos/logo-healthyrootsdolls.png';
 import logoInvestDetroitVentures from '../static/img/logos/logo-idventures.png';
 import logoKyyba from '../static/img/logos/logo-kyybaventures.png';
-import logoLunar from '../static/img/logos/logo-lunar.png';
 import logoMapbox from '../static/img/logos/logo-mapbox.png';
 import logoMercuryFund from '../static/img/logos/logo-mercuryfund.png';
 import logoMightyAI from '../static/img/logos/logo-mightyai.svg';
@@ -27,18 +28,19 @@ import logoMySwimPro from '../static/img/logos/logo-myswimpro.png';
 import logoNextEnergy from '../static/img/logos/logo-nextenergy.png';
 import logoOptimize from '../static/img/logos/logo-optimize.png';
 import logoPlanetM from '../static/img/logos/logo-planetm.jpg';
+import logoRedVentures from '../static/img/logos/logo-redventures.png';
 import logoRepurpose from '../static/img/logos/logo-repurpose.jpg';
 import logoRIZZARR from '../static/img/logos/logo-rizzarr.png';
 import logoSaganworks from '../static/img/logos/logo-saganworks.png';
 import logoSift from '../static/img/logos/logo-sift.png';
 import logoSkillo from '../static/img/logos/logo-skillo.png';
 import logoSkyspecs from '../static/img/logos/logo-skyspecs.png';
-import logoSPLT from '../static/img/logos/logo-splt.png';
 import logoSpotHero from '../static/img/logos/logo-spothero.png';
 import logoStartupBoost from '../static/img/logos/logo-startupboost.png';
 import logoStockX from '../static/img/logos/logo-stockx.jpg';
+import logoSweet from '../static/img/logos/logo-sweet.svg';
 import logoTechElevator from '../static/img/logos/logo-techelevator.png';
-import logoTechstars from '../static/img/logos/logo-techstars2.png';
+import logoTechstars from '../static/img/logos/logo-techstars.png';
 import logoTechtown from '../static/img/logos/logo-techtown.png';
 import logoTiEDetroit from '../static/img/logos/logo-tiedetroit.png';
 import logoToDoolie from '../static/img/logos/logo-todoolie.png';
@@ -48,17 +50,25 @@ import logoVentureCatalysts from '../static/img/logos/logo-venturecatalysts.png'
 import logoVFA from '../static/img/logos/logo-vfa.png';
 import logoWaymark from '../static/img/logos/logo-waymark.png';
 import logoWeWork from '../static/img/logos/logo-wework.jpg';
-import logoWSU from '../static/img/logos/logo-wsu.png';
+import logoWSU from '../static/img/logos/logo-wsu.jpg';
 import logoXRDS from '../static/img/logos/logo-xrds.png';
 
 import {ORG_TYPES} from './organization-types.js';
 
-export const ORGANIZATIONS = [{
+export const ORGANIZATIONS = [
+  {
+    logo: logoAltimetrikCollider,
+    location: "Detroit,MI",
+    website: "http://getambassador.com",
+    name: "Altimetrik Collider",
+    type: ORG_TYPES.COMMUNITY_SUPPORTER,
+  },
+  {
     logo: logoAmbassador,
     location: "Royal Oak, MI",
     website: "http://getambassador.com",
     name: "Ambassador",
-    type: ORG_TYPES.STARTUP,
+    type: ORG_TYPES.COMMUNITY_SUPPORTER,
   },
   {
     logo: logoAssemblerLabs,
@@ -89,13 +99,6 @@ export const ORGANIZATIONS = [{
     type: ORG_TYPES.STARTUP,
   },
   {
-    logo: logoBarokasPR,
-    location: "Detroit, MI",
-    website: "http://barokas.com/",
-    name: "Barokas PR",
-    type: ORG_TYPES.COMMUNITY_SUPPORTER,
-  },
-  {
     logo: logoBenzinga,
     location: "Detroit, MI",
     website: "https://www.benzinga.com/",
@@ -107,8 +110,15 @@ export const ORGANIZATIONS = [{
     location: "Detroit, MI",
     website: "https://www.bloomscape.com/",
     name: "Bloomscape",
-    type: ORG_TYPES.STARTUP,
-  },
+    type: ORG_TYPES.RETAIL,
+    },
+    {
+      logo: logoDeepHow,
+      location: "Detroit, MI",
+      website: "https://www.deephow.com/",
+      name: "DeepHow",
+      type: ORG_TYPES.STARTUP,
+      },
   {
     logo: logoDetroitLabs,
     location: "Detroit, MI",
@@ -128,7 +138,7 @@ export const ORGANIZATIONS = [{
     location: "Ann Arbor, MI",
     website: "https://duo.com/",
     name: "Duo Security",
-    type: ORG_TYPES.STARTUP,
+    type: ORG_TYPES.COMMUNITY_SUPPORTER,
   },
   {
     logo: logoDVP,
@@ -180,6 +190,13 @@ export const ORGANIZATIONS = [{
     type: ORG_TYPES.COMMUNITY_SUPPORTER,
   },
   {
+    logo: logoHealthyRootsDolls,
+    location: "Detroit, MI",
+    website: "https://healthyrootsdolls.com/about-us/",
+    name: "Healthy Roots Dolls",
+    type: ORG_TYPES.RETAIL,
+  },
+  {
     logo: logoInvestDetroitVentures,
     location: "Detroit, MI",
     website: "https://www.investdetroit.vc/",
@@ -189,16 +206,9 @@ export const ORGANIZATIONS = [{
   {
     logo: logoKyyba,
     location: "Farmington Hills, MI",
-    website: "http://kyybaventures.com/",
+    website: "https://kyybainnovations.com/",
     name: "Kyyba Ventures",
     type: ORG_TYPES.INVESTOR,
-  },
-  {
-    logo: logoLunar,
-    location: "Detroit, MI",
-    website: "https://lunarwireless.com/",
-    name: "Lunar Wireless",
-    type: ORG_TYPES.STARTUP,
   },
   {
     logo: logoMapbox,
@@ -257,9 +267,16 @@ export const ORGANIZATIONS = [{
     type: ORG_TYPES.COMMUNITY_SUPPORTER,
   },
   {
+    logo: logoRedVentures,
+    location: "Detroit, MI",
+    website: "https://www.redventures.com/",
+    name: "Red Ventures",
+    type: ORG_TYPES.COMMUNITY_SUPPORTER,
+  },
+  {
     logo: logoRepurpose,
     location: "Detroit, MI",
-    website: "http://www.repurpose.co",
+    website: "https://www.purpose.jobs/",
     name: "re:purpose",
     type: ORG_TYPES.STARTUP,
   },
@@ -299,13 +316,6 @@ export const ORGANIZATIONS = [{
     type: ORG_TYPES.STARTUP,
   },
   {
-    logo: logoSPLT,
-    location: "Detroit, MI",
-    website: "http://www.splt.io",
-    name: "SPLT",
-    type: ORG_TYPES.STARTUP,
-  },
-  {
     logo: logoSpotHero,
     location: "Detroit, MI",
     website: "http://www.spothero.com",
@@ -324,6 +334,13 @@ export const ORGANIZATIONS = [{
     location: "Detroit, MI",
     website: "http://www.stockx.com",
     name: "StockX",
+    type: ORG_TYPES.STARTUP,
+  },
+  {
+    logo: logoSweet,
+    location: "Detroit, MI",
+    website: "http://www.savewithsweet.com",
+    name: "Sweet",
     type: ORG_TYPES.STARTUP,
   },
   {
@@ -406,8 +423,8 @@ export const ORGANIZATIONS = [{
   {
     logo: logoWSU,
     location: "Detroit, MI",
-    website: "http://innovationwarriors.wayne.edu/",
-    name: "WSU Innovation Warriors",
+    website: "https://innovationhub.wayne.edu/",
+    name: "WSU Innovation Hub",
     type: ORG_TYPES.COMMUNITY_SUPPORTER,
   },
   {
