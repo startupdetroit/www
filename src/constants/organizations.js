@@ -4,7 +4,7 @@ import logoAmbassador from '../static/img/logos/logo-ambassador.png';
 import logoAssemblerLabs from '../static/img/logos/logo-assembler-labs.png';
 import logoAutobooks from '../static/img/logos/logo-autobooks.svg';
 import logoBackstage from '../static/img/logos/logo-backstagecapital.png';
-import logoBamboo from '../static/img/logos/logo-bamboo.png';
+import logoBamboo from '../static/img/logos/logo-bamboo.jpg';
 import logoBenzinga from '../static/img/logos/logo-benzinga.png';
 import logoBloomscape from '../static/img/logos/logo-bloomscape.png';
 import logoDeepHow from '../static/img/logos/logo-deephow.png';
@@ -29,8 +29,8 @@ import logoMySwimPro from '../static/img/logos/logo-myswimpro.png';
 import logoNextEnergy from '../static/img/logos/logo-nextenergy.png';
 import logoOptimize from '../static/img/logos/logo-optimize.png';
 import logoPlanetM from '../static/img/logos/logo-planetm.jpg';
+import logoPurposeJobs from '../static/img/logos/logo-purposejobs.png';
 import logoRedVentures from '../static/img/logos/logo-redventures.png';
-import logoRepurpose from '../static/img/logos/logo-repurpose.jpg';
 import logoRIZZARR from '../static/img/logos/logo-rizzarr.png';
 import logoSaganworks from '../static/img/logos/logo-saganworks.png';
 import logoShiftUp from '../static/img/logos/logo-shiftup.png';
@@ -276,18 +276,18 @@ export const ORGANIZATIONS = [
     type: ORG_TYPES.COMMUNITY_SUPPORTER,
   },
   {
+    logo: logoPurposeJobs,
+    location: "Detroit, MI",
+    website: "https://www.purpose.jobs/",
+    name: "Purpose.Jobs",
+    type: ORG_TYPES.STARTUP,
+  },
+  {
     logo: logoRedVentures,
     location: "Detroit, MI",
     website: "https://www.redventures.com/",
     name: "Red Ventures",
     type: ORG_TYPES.COMMUNITY_SUPPORTER,
-  },
-  {
-    logo: logoRepurpose,
-    location: "Detroit, MI",
-    website: "https://www.purpose.jobs/",
-    name: "re:purpose",
-    type: ORG_TYPES.STARTUP,
   },
   {
     logo: logoRIZZARR,
