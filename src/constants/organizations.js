@@ -1,3 +1,4 @@
+import logoAshAndErie from '../static/img/logos/logo-ashanderie.png';
 import logoAltimetrikCollider from '../static/img/logos/logo-altimetrikcollider.png';
 import logoAmbassador from '../static/img/logos/logo-ambassador.png';
 import logoAssemblerLabs from '../static/img/logos/logo-assembler-labs.png';
@@ -32,6 +33,7 @@ import logoRedVentures from '../static/img/logos/logo-redventures.png';
 import logoRepurpose from '../static/img/logos/logo-repurpose.jpg';
 import logoRIZZARR from '../static/img/logos/logo-rizzarr.png';
 import logoSaganworks from '../static/img/logos/logo-saganworks.png';
+import logoShiftUp from '../static/img/logos/logo-shiftup.png';
 import logoSift from '../static/img/logos/logo-sift.png';
 import logoSkillo from '../static/img/logos/logo-skillo.png';
 import logoSkyspecs from '../static/img/logos/logo-skyspecs.png';
@@ -57,8 +59,15 @@ import {ORG_TYPES} from './organization-types.js';
 
 export const ORGANIZATIONS = [
   {
+    logo: logoAshAndErie,
+    location: "Detroit, MI",
+    website: "https://ashanderie.com/",
+    name: "Ash & Erie",
+    type: ORG_TYPES.RETAIL,
+  },
+  {
     logo: logoAltimetrikCollider,
-    location: "Detroit,MI",
+    location: "Detroit, MI",
     website: "https://collider.altimetrik.com/",
     name: "Altimetrik Collider",
     type: ORG_TYPES.COMMUNITY_SUPPORTER,
@@ -292,6 +301,13 @@ export const ORGANIZATIONS = [
     location: "Ann Arbor, MI",
     website: "http://www.saganworks.com",
     name: "SAGANWORKS",
+    type: ORG_TYPES.STARTUP,
+  },
+  {
+    logo: logoShiftUp,
+    location: "Detroit, MI",
+    website: "https://www.shiftup.tech/",
+    name: "Shift_Up",
     type: ORG_TYPES.STARTUP,
   },
   {
