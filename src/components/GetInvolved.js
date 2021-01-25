@@ -18,14 +18,7 @@ class GetInvolved extends Component {
               Join the meetup
             </a>
 
-            <a
-              href="https://startupdetroit.repurpose.co/"
-              className="button is-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Join the happy hour
-            </a>
+
 
 
           </div>
@@ -40,14 +33,6 @@ class GetInvolved extends Component {
               Join our Slack community
             </a>
 
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLScoj2AXf9EuPJitkVV1Ju7G8NNWAIbPx-3rMBxCX-Q1LJcYdQ/viewform"
-              className="button is-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Join our email list
-            </a>
 
             <a
               href="https://www.startupdigest.com/digests/detroit/"
@@ -55,7 +40,7 @@ class GetInvolved extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Startup Digest Calendar
+              Startup Digest Detroit
             </a>
 
           </div>
