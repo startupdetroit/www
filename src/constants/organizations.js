@@ -14,6 +14,7 @@ import logoDuo from '../static/img/logos/logo-duo.png';
 import logoDVP from '../static/img/logos/logo-dvp.png';
 import logoEntryPoint from '../static/img/logos/logo-entrypoint.png';
 import logoEOSDetroit from '../static/img/logos/logo-eos-detroit.png';
+import logoEssium from '../static/img/logos/logo-essium.png';
 import logoGenomenon from '../static/img/logos/logo-genomenon.png';
 import logoGrandCircus from '../static/img/logos/logo-grandcircus.png';
 import logoGrandVentures from '../static/img/logos/logo-grandventures.png';
@@ -168,6 +169,13 @@ export const ORGANIZATIONS = [
     location: "Detroit, MI",
     website: "https://eosdetroit.io",
     name: "EOS Detroit",
+    type: ORG_TYPES.STARTUP
+  },
+  {
+    logo: logoEssium,
+    location: "Shelby Township, MI",
+    website: "https://essium.co",
+    name: "Essium",
     type: ORG_TYPES.STARTUP
   },
   {
